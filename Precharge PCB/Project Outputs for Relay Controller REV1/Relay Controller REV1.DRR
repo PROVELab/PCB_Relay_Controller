@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Relay Controller REV1.PcbDoc   2/24/2025  2:18:44 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Relay Controller REV1.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.26mm)                                            Round             146       PTH        27.47inch (697.86mm)
+T2      26mil (0.65mm)                                            Round             20        PTH        6.07inch (154.21mm)
+T3      71mil (1.81mm)                                            Round             4         PTH        0.47inch (11.88mm)
+T4      74mil (1.89mm)                                            Round             18        PTH        11.62inch (295.16mm)
+T5      118mil (3mm)                                              Round             4         PTH        10.80inch (274.19mm)
+T6      70mil (1.78mm)                                            Round             1         NPTH       0.00inch (0.00mm)
+T7      73mil (1.86mm)                                            Round             9         NPTH       8.79inch (223.14mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              202
+
+Total Processing Time (hh:mm:ss) : 00:00:00

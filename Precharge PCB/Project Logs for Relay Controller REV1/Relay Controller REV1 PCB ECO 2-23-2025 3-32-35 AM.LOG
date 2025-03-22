@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=IC1_U_LED1 NewDesignator=IC1
+Change Component Designator: OldDesignator=IC1_U_LED2 NewDesignator=IC2
+Change Component Designator: OldDesignator=IC1_U_LED3 NewDesignator=IC3
+Change Component Designator: OldDesignator=LED1_U_LED1 NewDesignator=LED1
+Change Component Designator: OldDesignator=LED1_U_LED2 NewDesignator=LED2
+Change Component Designator: OldDesignator=LED1_U_LED3 NewDesignator=LED3
+Change Component Designator: OldDesignator=R6_U_LED1 NewDesignator=R6
+Change Component Designator: OldDesignator=R6_U_LED2 NewDesignator=R9
+Change Component Designator: OldDesignator=R6_U_LED3 NewDesignator=R10
+Change Net Name : Old Net Name=NetIC1_U_LED1_3 New Net Name=NetIC1_3
+Change Net Name : Old Net Name=NetIC1_U_LED2_3 New Net Name=NetIC2_3
+Change Net Name : Old Net Name=NetIC1_U_LED3_3 New Net Name=NetIC3_3
+Change Net Name : Old Net Name=NetLED1_U_LED1_1 New Net Name=NetLED1_1
+Change Net Name : Old Net Name=NetLED1_U_LED2_1 New Net Name=NetLED2_1
+Change Net Name : Old Net Name=NetLED1_U_LED3_1 New Net Name=NetLED3_1

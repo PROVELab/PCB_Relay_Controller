@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=HV+ MC Pin=F2-1
+Removed Pin From Net: NetName=NetF2_2 Pin=F2-2
+Removed Pin From Net: NetName=+ Signal Pin=IC1_+ Signal-1
+Removed Pin From Net: NetName=GND Pin=IC1_+ Signal-2
+Removed Pin From Net: NetName=- Signal Pin=IC1_- Signal-1
+Removed Pin From Net: NetName=GND Pin=IC1_- Signal-2
+Removed Pin From Net: NetName=Precharge Signal Pin=IC1_Precharge Signal-1
+Removed Pin From Net: NetName=GND Pin=IC1_Precharge Signal-2
+Removed Member From Class: ClassName=Connectors Member=F2
+Removed Member From Class: ClassName=LED_Driver Member=+ Signal
+Removed Member From Class: ClassName=LED_Driver Member=- Signal
+Removed Member From Class: ClassName=LED_Driver Member=Precharge Signal
+Change Component Designator: OldDesignator=LED1_+ Signal NewDesignator=LED1_U_LED3
+Change Component Designator: OldDesignator=LED1_- Signal NewDesignator=LED1_U_LED2
+Change Component Designator: OldDesignator=LED1_Precharge Signal NewDesignator=LED1_U_LED1
+Change Component Designator: OldDesignator=R6_+ Signal NewDesignator=R6_U_LED3
+Change Component Designator: OldDesignator=R6_- Signal NewDesignator=R6_U_LED2
+Change Component Designator: OldDesignator=R6_Precharge Signal NewDesignator=R6_U_LED1
+Added Component: Designator=IC1_U_LED1(SOT96P240X110-3N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/dmn61d8lq-13/diodes-incorporated?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.diodes.com//assets/Datasheets/DMN61D8LQ.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "621-DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN61D8LQ-13?qs=DBvH5xl4UymJgoulTjiNCg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC1_U_LED2(SOT96P240X110-3N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/dmn61d8lq-13/diodes-incorporated?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.diodes.com//assets/Datasheets/DMN61D8LQ.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "621-DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN61D8LQ-13?qs=DBvH5xl4UymJgoulTjiNCg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC1_U_LED3(SOT96P240X110-3N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/dmn61d8lq-13/diodes-incorporated?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.diodes.com//assets/Datasheets/DMN61D8LQ.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "621-DMN61D8LQ-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN61D8LQ-13?qs=DBvH5xl4UymJgoulTjiNCg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Precharge Signal Pin=IC1_U_LED1-1
+Added Pin To Net: NetName=GND Pin=IC1_U_LED1-2
+Added Pin To Net: NetName=- Signal Pin=IC1_U_LED2-1
+Added Pin To Net: NetName=GND Pin=IC1_U_LED2-2
+Added Pin To Net: NetName=+ Signal Pin=IC1_U_LED3-1
+Added Pin To Net: NetName=GND Pin=IC1_U_LED3-2
+Added Pin To Net: NetName=NetF1_2 Pin=R5-2
+Added Pin To Net: NetName=NetF1_2 Pin=R5-3
+Change Net Name : Old Net Name=NetF1_2 New Net Name=HV+ MC Unfused
+Change Net Name : Old Net Name=NetF2_2 New Net Name=NetJ8_1
+Change Net Name : Old Net Name=NetLED1_+ Signal_1 New Net Name=NetLED1_U_LED3_1
+Change Net Name : Old Net Name=NetLED1_- Signal_1 New Net Name=NetLED1_U_LED2_1
+Change Net Name : Old Net Name=NetLED1_Precharge Signal_1 New Net Name=NetLED1_U_LED1_1
+Added Pin To Net: NetName=NetIC1_U_LED1_3 Pin=IC1_U_LED1-3
+Added Pin To Net: NetName=NetIC1_U_LED1_3 Pin=R6_U_LED1-2
+Added Net: Name=NetIC1_U_LED1_3
+Added Pin To Net: NetName=NetIC1_U_LED2_3 Pin=IC1_U_LED2-3
+Added Pin To Net: NetName=NetIC1_U_LED2_3 Pin=R6_U_LED2-2
+Added Net: Name=NetIC1_U_LED2_3
+Added Pin To Net: NetName=NetIC1_U_LED3_3 Pin=IC1_U_LED3-3
+Added Pin To Net: NetName=NetIC1_U_LED3_3 Pin=R6_U_LED3-2
+Added Net: Name=NetIC1_U_LED3_3
+Added Class: Name=U_LED1
+Added Class: Name=U_LED2
+Added Class: Name=U_LED3
+Added Member To Class: ClassName=LED_Driver Member=U_LED (LED_Driver.SchDoc)
+Added Member To Class: ClassName=LED_Driver Member=U_LED (LED_Driver.SchDoc)
+Added Member To Class: ClassName=LED_Driver Member=U_LED (LED_Driver.SchDoc)

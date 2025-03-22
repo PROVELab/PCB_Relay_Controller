@@ -1,0 +1,35 @@
+Change Physical Footprint: Designator=D1 Old Footprint=DIOM5426X300N New Footprint=DIOM5426X300N
+Change Physical Footprint: Designator=D2 Old Footprint=DIOM5426X300N New Footprint=DIOM5426X300N
+Change Physical Footprint: Designator=D3 Old Footprint=DIOM5426X300N New Footprint=DIOM5426X300N
+Change Physical Footprint: Designator=F1 Old Footprint=0ACG2000TE New Footprint=0ACG2000TE
+Change Physical Footprint: Designator=F2 Old Footprint=0ACG2000TE New Footprint=0ACG2000TE
+Change Physical Footprint: Designator=IC1_+ Signal Old Footprint=SOT96P240X110-3N New Footprint=SOT96P240X110-3N
+Change Physical Footprint: Designator=IC1_- Signal Old Footprint=SOT96P240X110-3N New Footprint=SOT96P240X110-3N
+Change Physical Footprint: Designator=IC1_Precharge Signal Old Footprint=SOT96P240X110-3N New Footprint=SOT96P240X110-3N
+Change Physical Footprint: Designator=J1 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J2 Old Footprint=18772854 New Footprint=18772854
+Change Physical Footprint: Designator=J3 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J4 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J5 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J6 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J7 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J8 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J9 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=J10 Old Footprint=18772852 New Footprint=18772852
+Change Physical Footprint: Designator=K1 Old Footprint=KT121A40LSMD New Footprint=KT121A40LSMD
+Change Physical Footprint: Designator=LED1_+ Signal Old Footprint=156120VS75000 New Footprint=156120VS75000
+Change Physical Footprint: Designator=LED1_- Signal Old Footprint=156120VS75000 New Footprint=156120VS75000
+Change Physical Footprint: Designator=LED1_Precharge Signal Old Footprint=156120VS75000 New Footprint=156120VS75000
+Change Physical Footprint: Designator=Q1 Old Footprint=SOTFL95P240X88-3N New Footprint=SOTFL95P240X88-3N
+Change Physical Footprint: Designator=Q2 Old Footprint=SOTFL95P240X88-3N New Footprint=SOTFL95P240X88-3N
+Change Physical Footprint: Designator=Q3 Old Footprint=SOTFL95P240X88-3N New Footprint=SOTFL95P240X88-3N
+Change Physical Footprint: Designator=R1 Old Footprint=TWW20J100E New Footprint=TWW20J100E
+Change Physical Footprint: Designator=R2 Old Footprint=TWW20J100E New Footprint=TWW20J100E
+Change Physical Footprint: Designator=R3 Old Footprint=TWW20J100E New Footprint=TWW20J100E
+Change Physical Footprint: Designator=R4 Old Footprint=TWW20J100E New Footprint=TWW20J100E
+Change Physical Footprint: Designator=R5 Old Footprint=TWW20J100E New Footprint=TWW20J100E
+Change Physical Footprint: Designator=R6_+ Signal Old Footprint=ERA8KEB1004V New Footprint=ERA8KEB1004V
+Change Physical Footprint: Designator=R6_- Signal Old Footprint=ERA8KEB1004V New Footprint=ERA8KEB1004V
+Change Physical Footprint: Designator=R6_Precharge Signal Old Footprint=ERA8KEB1004V New Footprint=ERA8KEB1004V
+Change Physical Footprint: Designator=R7 Old Footprint=RESM17569X685N New Footprint=RESM17569X685N
+Change Physical Footprint: Designator=R8 Old Footprint=RESM17569X685N New Footprint=RESM17569X685N
