@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=NRST Pin=IC3-7
+Added Pin To Net: NetName=NRST Pin=IC3-8

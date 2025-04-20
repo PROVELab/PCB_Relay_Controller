@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=12V Pin=D1-1
+Removed Pin From Net: NetName=12V Pin=D2-1
+Removed Pin From Net: NetName=12V Pin=D3-1
+Removed Pin From Net: NetName=12V Pin=K1-1
+Added Pin To Net: NetName=12V Unfused Pin=D1-1
+Added Pin To Net: NetName=12V Unfused Pin=D2-1
+Added Pin To Net: NetName=12V Unfused Pin=D3-1
+Added Pin To Net: NetName=12V Unfused Pin=K1-1

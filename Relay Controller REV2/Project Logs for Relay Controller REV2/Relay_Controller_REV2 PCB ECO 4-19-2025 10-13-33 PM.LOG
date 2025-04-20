@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+ Signal Pin=IC3-20
+Removed Pin From Net: NetName=- Signal Pin=IC3-21
+Removed Pin From Net: NetName=PC Signal Pin=IC3-22
+Added Pin To Net: NetName=PC Signal Pin=IC3-33
+Added Pin To Net: NetName=- Signal Pin=IC3-35
+Added Pin To Net: NetName=+ Signal Pin=IC3-37
+Added Pin To Net: NetName=NetIC3_21 Pin=IC3-21
+Added Pin To Net: NetName=NetIC3_21 Pin=J12-1
+Added Net: Name=NetIC3_21
+Added Pin To Net: NetName=NetIC3_23 Pin=IC3-23
+Added Pin To Net: NetName=NetIC3_23 Pin=J12-2
+Added Net: Name=NetIC3_23
+Added Pin To Net: NetName=NetIC3_25 Pin=IC3-25
+Added Pin To Net: NetName=NetIC3_25 Pin=J12-3
+Added Net: Name=NetIC3_25
+Added Pin To Net: NetName=NetIC3_27 Pin=IC3-27
+Added Pin To Net: NetName=NetIC3_27 Pin=J12-4
+Added Net: Name=NetIC3_27
