@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NRST Pin=IC3-8
+Removed Pin From Net: NetName=PC Switch COM Pin=J2-1
+Added Pin To Net: NetName=NRST Pin=IC3-7
+Added Pin To Net: NetName=PC Switch COM Pin=J2-4

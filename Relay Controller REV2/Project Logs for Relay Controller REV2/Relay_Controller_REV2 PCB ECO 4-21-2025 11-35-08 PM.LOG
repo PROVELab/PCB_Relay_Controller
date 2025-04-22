@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=HV+ MC Unfused Pin=K1-4
+Removed Pin From Net: NetName=HV+ BAT Pin=R5-1
+Removed Pin From Net: NetName=HV+ BAT Pin=R5-4
+Added Pin To Net: NetName=HV+ BAT Pin=K1-3
+Added Pin To Net: NetName=HV+ MC Unfused Pin=R5-2
+Added Pin To Net: NetName=HV+ MC Unfused Pin=R5-3
+Added Pin To Net: NetName=NetK1_4 Pin=K1-4
+Added Pin To Net: NetName=NetK1_4 Pin=R1-1
+Added Pin To Net: NetName=NetK1_4 Pin=R1-4
+Added Net: Name=NetK1_4
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=R1-3
+Added Pin To Net: NetName=NetR1_2 Pin=R2-1
+Added Pin To Net: NetName=NetR1_2 Pin=R2-4
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-3
+Added Pin To Net: NetName=NetR2_2 Pin=R3-1
+Added Pin To Net: NetName=NetR2_2 Pin=R3-4
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=R3-3
+Added Pin To Net: NetName=NetR3_2 Pin=R4-1
+Added Pin To Net: NetName=NetR3_2 Pin=R4-4
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-3
+Added Pin To Net: NetName=NetR4_2 Pin=R5-1
+Added Pin To Net: NetName=NetR4_2 Pin=R5-4
+Added Net: Name=NetR4_2

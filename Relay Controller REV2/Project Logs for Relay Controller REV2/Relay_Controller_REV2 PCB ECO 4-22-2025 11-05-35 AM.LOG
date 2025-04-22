@@ -1,0 +1,8 @@
+Added Component: Designator=F1(0ADKP0500-RE)
+Added Component: Designator=F2(0ADKP0500-RE)
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=HV+ MC Unfused Pin=F1-2
+Added Pin To Net: NetName=HV- MC Unfused Pin=F2-1
+Added Pin To Net: NetName=HV- Pin=F2-2
+Added Member To Class: ClassName=VoltageSense Member=Component F1 0ADKP0500-RE
+Added Member To Class: ClassName=VoltageSense Member=Component F2 0ADKP0500-RE

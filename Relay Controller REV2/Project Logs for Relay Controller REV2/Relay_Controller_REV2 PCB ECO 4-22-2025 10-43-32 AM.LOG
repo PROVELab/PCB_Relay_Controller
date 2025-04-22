@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=HV- Pin=J8-1
+Removed Pin From Net: NetName=HV- Pin=J8-2
+Removed Pin From Net: NetName=HV+ MC Unfused Pin=R15-1
+Added Component: Designator=F1(Through-Hole-Fuse)
+Added Component: Designator=F2(Through-Hole-Fuse)
+Added Pin To Net: NetName=HV+ MC Unfused Pin=F1-2
+Added Pin To Net: NetName=HV- Pin=F2-2
+Added Pin To Net: NetName=HV- MC Unfused Pin=F2-1
+Added Pin To Net: NetName=HV- MC Unfused Pin=J8-1
+Added Pin To Net: NetName=HV- MC Unfused Pin=J8-2
+Added Net: Name=HV- MC Unfused
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=R15-1
+Added Net: Name=NetF1_1
+Added Member To Class: ClassName=VoltageSense Member=Component F1 0ADAP0400-RE
+Added Member To Class: ClassName=VoltageSense Member=Component F2 0ADAP0400-RE

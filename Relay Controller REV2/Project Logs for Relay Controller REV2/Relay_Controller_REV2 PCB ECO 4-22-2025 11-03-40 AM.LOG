@@ -1,0 +1,4 @@
+Change Footprint: Cannot match pads with new footprint in component :F1 Footprint:0ADKP0500-RE
+Change Footprint: Cannot match pads with new footprint in component :F2 Footprint:0ADKP0500-RE
+Change Component Comment : Designator=F1 Old Comment=0ADAP0400-RE New Comment=0ADKP0500-RE
+Change Component Comment : Designator=F2 Old Comment=0ADAP0400-RE New Comment=0ADKP0500-RE
