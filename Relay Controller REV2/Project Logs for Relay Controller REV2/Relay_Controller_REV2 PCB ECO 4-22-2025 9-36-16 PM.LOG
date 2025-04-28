@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=12V Unfused Pin=K1-1
+Removed Pin From Net: NetName=Precharge Relay GND Pin=K1-2
+Removed Pin From Net: NetName=HV+ BAT Pin=K1-3
+Added Pin To Net: NetName=HV+ BAT Pin=K1-1
+Added Pin To Net: NetName=12V Unfused Pin=K1-3
+Added Pin To Net: NetName=Precharge Relay GND Pin=K1-4
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetK1_2 Pin=R1-1
+Added Pin To Net: NetName=NetK1_2 Pin=R1-4
+Added Net: Name=NetK1_2

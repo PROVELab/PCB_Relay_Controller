@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=Q4-5
+Removed Pin From Net: NetName=GND Pin=Q4-7
+Added Pin To Net: NetName=HV- Pin=Q4-5
+Added Pin To Net: NetName=HV- Pin=Q4-7
+Added Rule: Name=Schematic Supply Nets
