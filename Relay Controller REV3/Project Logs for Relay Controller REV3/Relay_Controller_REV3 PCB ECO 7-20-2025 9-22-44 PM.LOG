@@ -1,0 +1,32 @@
+Added Component: Designator=C19(CAPC3216X229N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "12063D106KAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/12063d106kat2a/avx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://mouser.componentsearchengine.com/Datasheets/3/12063D106KAT2A.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.29mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "12063D106KAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-12063D106K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/AVX/12063D106KAT2A/?qs=yeMJfaiNeLyJNmMC0AygIQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC5(SOP50P490X110-10N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "LTC4151IMS#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/ltc4151imspbf/analog-devices?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.linear.com/docs/26089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LTC4151IMS#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "584-LTC4151IMS#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4151IMSPBF?qs=hVkxg5c3xu%2F2n6Fpk%2FlWrA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=HV+ ÷ 8 Pin=IC5-1
+Added Pin To Net: NetName=HV+ ÷ 8 Pin=IC5-2
+Added Pin To Net: NetName=HV+ ÷ 8 Pin=IC5-3
+Added Pin To Net: NetName=HV- Pin=IC5-4
+Added Pin To Net: NetName=HV- Pin=IC5-5
+Added Pin To Net: NetName=SCL (High Side) Pin=IC5-6
+Added Pin To Net: NetName=SDA (High Side) Pin=IC5-7
+Added Pin To Net: NetName=3.3V (High Side) Pin=IC5-8
+Added Pin To Net: NetName=HV- Pin=IC5-9
+Added Pin To Net: NetName=NetIC5_10 Pin=IC5-10
+Added Member To Class: ClassName=3.3V Isolation Member=Component C19 10u
+Added Member To Class: ClassName=VoltageSense Member=Component IC5 LTC4151IMS#PBF

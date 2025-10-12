@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=C19 Old Footprint=CAPC3216X229N New Footprint=CAPC3216X180N
+Change Component Designator: OldDesignator=+ Sig NewDesignator=LED1_U_LED3
+Change Component Designator: OldDesignator=- Sig NewDesignator=LED1_U_LED2
+Change Component Designator: OldDesignator=ICLED1 NewDesignator=IC1_U_LED1
+Change Component Designator: OldDesignator=ICLED2 NewDesignator=IC1_U_LED2
+Change Component Designator: OldDesignator=ICLED3 NewDesignator=IC1_U_LED3
+Change Component Designator: OldDesignator=PC Sig NewDesignator=LED1_U_LED1
+Change Component Designator: OldDesignator=R6LED1 NewDesignator=R6_U_LED1
+Change Component Designator: OldDesignator=R6LED2 NewDesignator=R6_U_LED2
+Change Component Designator: OldDesignator=R6LED3 NewDesignator=R6_U_LED3
+Change component parameters: Designator = "C19" ("C19"); Footprint = "CAPC3216X229N"; UniqueID = "\ZOFTFLSL\EKEARYVH" ("\ZOFTFLSL\EKEARYVH")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5731/MLR01_e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MLASU31LBB5106KTNA01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"

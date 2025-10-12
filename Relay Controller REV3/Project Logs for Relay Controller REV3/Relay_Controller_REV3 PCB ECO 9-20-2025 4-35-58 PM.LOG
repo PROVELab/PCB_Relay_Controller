@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=HV- MC Unfused Pin=C17-2
+Removed Pin From Net: NetName=HV- MC Unfused Pin=C18-2
+Removed Pin From Net: NetName=HV- MC Unfused Pin=IC7-5
+Removed Pin From Net: NetName=HV- MC Unfused Pin=IC7-6
+Removed Pin From Net: NetName=HV- MC Unfused Pin=IC7-8
+Added Pin To Net: NetName=HV- Pin=C17-2
+Added Pin To Net: NetName=HV- Pin=C18-2
+Added Pin To Net: NetName=HV- Pin=IC7-5
+Added Pin To Net: NetName=HV- Pin=IC7-6
+Added Pin To Net: NetName=HV- Pin=IC7-8

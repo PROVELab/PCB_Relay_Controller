@@ -1,0 +1,104 @@
+Removed Pin From Net: NetName=HV+ ÷ 8 Pin=IC5-1
+Removed Pin From Net: NetName=HV+ ÷ 8 Pin=IC5-2
+Removed Pin From Net: NetName=HV+ ÷ 8 Pin=IC5-3
+Removed Pin From Net: NetName=HV- Pin=IC5-4
+Removed Pin From Net: NetName=HV- Pin=IC5-5
+Removed Pin From Net: NetName=HV- Pin=IC5-9
+Removed Pin From Net: NetName=SCL Pin=Q4-2
+Removed Pin From Net: NetName=SDA Pin=Q4-4
+Removed Pin From Net: NetName=HV- Pin=Q4-5
+Removed Pin From Net: NetName=HV- Pin=Q4-7
+Removed Pin From Net: NetName=HV- Pin=Q5-2
+Removed Pin From Net: NetName=GND Pin=Q5-7
+Removed Pin From Net: NetName=SDA Pin=Q5-8
+Removed Pin From Net: NetName=3.3V Pin=R21-1
+Removed Pin From Net: NetName=3.3V Pin=R22-1
+Removed Pin From Net: NetName=3.3V Pin=R23-1
+Removed Pin From Net: NetName=SDA Pin=R23-2
+Removed Pin From Net: NetName=3.3V Pin=R24-1
+Removed Pin From Net: NetName=SCL Pin=R24-2
+Removed Member From Class: ClassName=12V to 3.3V LDO Member=+ Sig
+Removed Member From Class: ClassName=eFuse Member=- Sig
+Removed Member From Class: ClassName=VoltageSense Member=IC5
+Removed Member From Class: ClassName=VoltageSense Member=Q4
+Removed Member From Class: ClassName=VoltageSense Member=Q5
+Removed Member From Class: ClassName=VoltageSense Member=R18
+Removed Member From Class: ClassName=VoltageSense Member=R19
+Removed Member From Class: ClassName=VoltageSense Member=R20
+Removed Member From Class: ClassName=VoltageSense Member=R21
+Removed Member From Class: ClassName=VoltageSense Member=R22
+Removed Member From Class: ClassName=VoltageSense Member=R23
+Removed Member From Class: ClassName=VoltageSense Member=R24
+Change Component Comment : Designator=Q1 Old Comment= New Comment=SSM3K357R,LF
+Change Component Comment : Designator=Q2 Old Comment= New Comment=SSM3K357R,LF
+Change Component Comment : Designator=Q3 Old Comment= New Comment=SSM3K357R,LF
+Change Component Comment : Designator=R14 Old Comment=CRCW120662R0FKTA New Comment=62
+Change Component Designator: OldDesignator=+ Sig NewDesignator=LED1_U_LED3
+Change Component Designator: OldDesignator=- Sig NewDesignator=LED1_U_LED2
+Change Component Designator: OldDesignator=ICLED1 NewDesignator=IC1_U_LED1
+Change Component Designator: OldDesignator=ICLED2 NewDesignator=IC1_U_LED2
+Change Component Designator: OldDesignator=ICLED3 NewDesignator=IC1_U_LED3
+Change Component Designator: OldDesignator=PC Sig NewDesignator=LED1_U_LED1
+Change Component Designator: OldDesignator=R6LED1 NewDesignator=R6_U_LED1
+Change Component Designator: OldDesignator=R6LED2 NewDesignator=R6_U_LED2
+Change Component Designator: OldDesignator=R6LED3 NewDesignator=R6_U_LED3
+Added Component: Designator=IC?(SOIC127P1030X265-16N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "ISO1640QDWRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/iso1640qdwrq1/texas-instruments?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/iso1640-q1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ISO1640QDWRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-ISO1640QDWRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1640QDWRQ1?qs=Rp5uXu7WBW8dbY9hoO5fjw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(SOT230P700X180-4N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLV76150DCYR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tlv76150dcyr/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tlv761.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLV76150DCYR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TLV76150DCYR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV76150DCYR?qs=Jm2GQyTW%2Fbii1Rd2R0M2bQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(SOIC127P1030X265-16N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "UCC12050"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/ucc12050/texas-instruments?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.arrow.com/en/products/ucc12050/texas-instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UCC12050"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component: Footprint Not Found SOP50P490X110-10N
+Added Pin To Net: NetName=GND Pin=IC?-1
+Added Pin To Net: NetName=HV+ ÷ 8 Pin=IC?-1
+Added Pin To Net: NetName=HV+ ÷ 8 Pin=IC?-2
+Added Pin To Net: NetName=HV+ ÷ 8 Pin=IC?-3
+Added Pin To Net: NetName=HV- Pin=IC?-4
+Added Pin To Net: NetName=HV- Pin=IC?-5
+Added Pin To Net: NetName=SDA Pin=IC?-5
+Added Pin To Net: NetName=SCL Pin=IC?-6
+Added Pin To Net: NetName=GND Pin=IC?-7
+Added Pin To Net: NetName=HV- Pin=IC?-9
+Added Pin To Net: NetName=HV- Pin=IC?-9
+Added Pin To Net: NetName=HV- Pin=IC?-16
+Added Pin To Net: NetName=3.3V (High Side) Pin=IC?-8
+Added Pin To Net: NetName=3.3V (High Side) Pin=IC?-14
+Added Net: Name=3.3V (High Side)
+Add Net: Net with name "3.3V" already exists
+Added Pin To Net: NetName=NetIC?_10 Pin=IC?-10
+Added Pin To Net: NetName=NetIC?_10 Pin=R17-2
+Added Net: Name=NetIC?_10
+Added Pin To Net: NetName=SCL (High Side) Pin=IC?-6
+Added Pin To Net: NetName=SCL (High Side) Pin=IC?-11
+Added Net: Name=SCL (High Side)
+Added Pin To Net: NetName=SDA (High Side) Pin=IC?-7
+Added Pin To Net: NetName=SDA (High Side) Pin=IC?-12
+Added Net: Name=SDA (High Side)
+Added Member To Class: ClassName=VoltageSense Member=Component IC? ISO1640QDWRQ1
+Added Member To Class: ClassName=VoltageSense Member=Component IC? TLV76150DCYR
+Added Member To Class: ClassName=VoltageSense Member=Component IC? UCC12050
+Added Member To Class: ClassName=VoltageSense Member=Component IC? LTC4151IMS#PBF
+Added Member To Class: ClassName=eFuse Member=Component LED2 156120VS75000
+Added Member To Class: ClassName=12V to 3.3V LDO Member=Component LED3 156120VS75000
+Added Rule: Name=Schematic Supply Nets
