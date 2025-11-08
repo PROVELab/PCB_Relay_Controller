@@ -1,0 +1,46 @@
+Change Component Designator: OldDesignator=C27 NewDesignator=C35
+Change Component Designator: OldDesignator=C28 NewDesignator=C36
+Add component: Footprint Not Found GENERIC 1206
+Added Component: Designator=C27(CAPC3216X190N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.digikey.sg/en/products/detail/samsung-electro-mechanics/CL31X107MQKNNWE/25854287?srsltid=AfmBOoqYZ52GRQ9Xlh8bi0lGOe-KtDJ1wz9-WyaigKcCVSEueXc8l4on"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SAMSUNG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL31X107MQKNNWE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "187-CL31X107MQKNNWE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31X107MQKNNWE?qs=Jm2GQyTW%2FbjTv%252BH%2F%252BndEuA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C28(CAPC3216X190N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.digikey.sg/en/products/detail/samsung-electro-mechanics/CL31X107MQKNNWE/25854287?srsltid=AfmBOoqYZ52GRQ9Xlh8bi0lGOe-KtDJ1wz9-WyaigKcCVSEueXc8l4on"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SAMSUNG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL31X107MQKNNWE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "187-CL31X107MQKNNWE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31X107MQKNNWE?qs=Jm2GQyTW%2FbjTv%252BH%2F%252BndEuA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=D5(DIOM7959X250N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "B560C-13-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/b560c-13-f/diodes-incorporated?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-B560C-13-F_C85100.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "B560C-13-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "621-B560C-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B560C-13-F?qs=OC0R%252Bhozcm%252BAsjMXklZLIw%3D%3D"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin *9-1
+Add Pin To Net: Unknown Pin: Pin *9-2
+Added Pin To Net: NetName=3.3V Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=3.3V Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=SW Pin=D5-1
+Added Pin To Net: NetName=GND Pin=D5-2
+Change Net Name : Old Net Name=NetC28_1 New Net Name=NetC36_1
+Add Net: Net with name "SL_Ready" already exists
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2
+Add Class Member: Failed to add class member : Component *9 GENERIC RESISTOR 1206
+Added Member To Class: ClassName=24V to 3.3V Buck Member=Component C35 18p
+Added Member To Class: ClassName=24V to 3.3V Buck Member=Component C36 22n
+Added Member To Class: ClassName=24V to 3.3V Buck Member=Component D5 B560C-13-F

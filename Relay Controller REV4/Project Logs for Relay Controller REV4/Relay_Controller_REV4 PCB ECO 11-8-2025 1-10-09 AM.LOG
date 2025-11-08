@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=SWCLK Pin=J9-1
+Removed Pin From Net: NetName=SWDIO Pin=J9-2
+Removed Pin From Net: NetName=3.3V Pin=J9-3
+Removed Pin From Net: NetName=GND Pin=J9-4
+Removed Pin From Net: NetName=SWO Pin=J10-1
+Removed Pin From Net: NetName=NRST Pin=J10-2
+Removed Member From Class: ClassName=Connectors Member=J13
+Removed Member From Class: ClassName=Connectors Member=J?
+Change Component Designator: OldDesignator=J11 NewDesignator=J10
+Change Component Designator: OldDesignator=J12 NewDesignator=J11
+Change Component Designator: OldDesignator=J13 NewDesignator=J12
+Change Component Designator: OldDesignator=J? NewDesignator=J9
+Added Pin To Net: NetName=3.3V Pin=J9-3
+Added Pin To Net: NetName=SWDIO Pin=J9-4
+Added Pin To Net: NetName=GND Pin=J9-5
+Added Pin To Net: NetName=SWCLK Pin=J9-6
+Added Pin To Net: NetName=GND Pin=J9-7
+Added Pin To Net: NetName=SWO Pin=J9-8
+Added Pin To Net: NetName=GND Pin=J9-11
+Added Pin To Net: NetName=NRST Pin=J9-12

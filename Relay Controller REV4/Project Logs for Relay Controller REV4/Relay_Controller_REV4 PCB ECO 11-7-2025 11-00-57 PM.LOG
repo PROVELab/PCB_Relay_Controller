@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=24V Pin=C37-1
+Removed Pin From Net: NetName=dVdT Pin=C39-1
+Removed Pin From Net: NetName=GND Pin=C39-2
+Removed Member From Class: ClassName=eFuse Member=C39
+Change Component Footprint: Designator=C37 Old Footprint=EEEFK0J103SM New Footprint=CAPC3216X152N
+Change Component Comment : Designator=C37 Old Comment=2.2mF New Comment=0.47u
+Change component parameters: Designator = "C37" ("C37"); Footprint = "EEEFK0J103SM"; UniqueID = "\LBOAXXZQ\APDFXOPH" ("\LBOAXXZQ\APDFXOPH")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "KAF31ER71H474KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/kaf31er71h474kl/avx?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://datasheets.kyocera-avx.com/AutoMLCCKAF.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.52mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "KAF31ER71H474KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "581-KAF31ER71H474KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAF31ER71H474KL?qs=Jm2GQyTW%2FbjNZ75fHRRUJA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=dVdT Pin=C37-1
+Change Net Name : Old Net Name=!FLT EFUSE New Net Name=!FLT EF
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2

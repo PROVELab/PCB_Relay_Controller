@@ -1,0 +1,44 @@
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add Pin To Net: Unknown Pin: Pin *1-1
+Add Pin To Net: Unknown Pin: Pin *1-2
+Add Pin To Net: Unknown Pin: Pin *2-1
+Add Pin To Net: Unknown Pin: Pin *3-1
+Add Pin To Net: Unknown Pin: Pin *3-2
+Add Pin To Net: Unknown Pin: Pin *4-1
+Add Pin To Net: Unknown Pin: Pin *4-2
+Add Pin To Net: Unknown Pin: Pin *5-1
+Add Pin To Net: Unknown Pin: Pin *5-2
+Add Pin To Net: Unknown Pin: Pin *6-1
+Add Pin To Net: Unknown Pin: Pin *6-2
+Add Pin To Net: Unknown Pin: Pin *7-1
+Add Pin To Net: Unknown Pin: Pin *7-2
+Add Pin To Net: Unknown Pin: Pin *8-1
+Add Pin To Net: Unknown Pin: Pin *8-2
+Add Pin To Net: Unknown Pin: Pin *9-1
+Add Pin To Net: Unknown Pin: Pin *9-2
+Change Net Name : Old Net Name=NetD4_1 New Net Name=CAN H
+Change Net Name : Old Net Name=NetD4_2 New Net Name=CAN L
+Change Net Name : Old Net Name=NetFL1_1 New Net Name=CANCH
+Change Net Name : Old Net Name=NetFL1_2 New Net Name=CANCL
+Add Net: Net with name "HV+ BAT" already exists
+Add Net: Net with name "SL_Ready" already exists
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2
+Add Class Member: Failed to add class member : Component *1 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *2 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *3 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *4 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *5 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *6 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *7 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *8 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *9 GENERIC RESISTOR 1206
+Added Rule: Name=Schematic Supply Nets

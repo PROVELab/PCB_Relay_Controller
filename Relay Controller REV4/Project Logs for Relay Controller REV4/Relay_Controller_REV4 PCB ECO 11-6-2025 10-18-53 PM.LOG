@@ -1,0 +1,122 @@
+Removed Pin From Net: NetName=NetR12_2 Pin=F2-1
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Added Component: Designator=C1(CAPC3216X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C104J4Z2A/DataSheet/X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPC3216X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C104J4Z2A/DataSheet/X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAPC3216X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C104J4Z2A/DataSheet/X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAPC3216X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C104J4Z2A/DataSheet/X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=581-12065C104J4Z2A"; VariantName = "[No Variations]"
+Added Component: Designator=IC5(SOP65P640X120-17N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TPS26600PWPR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tps26600pwpr/texas-instruments?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.ti.com/lit/gpn/tps2660"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TPS26600PWPR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TPS26600PWPR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS26600PWPR?qs=Bho%2FbeBaDExFVQBFO8fB%2FQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=IC6(SOIC127P600X170-9N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TPS54560BQDDARQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tps54560bqddarq1/texas-instruments?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.ti.com/lit/gpn/tps54560b-q1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TPS54560BQDDARQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TPS54560BQDDARQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54560BQDDARQ1?qs=Mv7BduZupUi0AsDfghsxzg%3D%3D"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin *1-1
+Add Pin To Net: Unknown Pin: Pin *1-2
+Add Pin To Net: Unknown Pin: Pin *2-1
+Add Pin To Net: Unknown Pin: Pin *3-1
+Add Pin To Net: Unknown Pin: Pin *3-2
+Add Pin To Net: Unknown Pin: Pin *4-1
+Add Pin To Net: Unknown Pin: Pin *4-2
+Add Pin To Net: Unknown Pin: Pin *5-1
+Add Pin To Net: Unknown Pin: Pin *5-2
+Add Pin To Net: Unknown Pin: Pin *6-1
+Add Pin To Net: Unknown Pin: Pin *6-2
+Add Pin To Net: Unknown Pin: Pin *7-1
+Add Pin To Net: Unknown Pin: Pin *7-2
+Add Pin To Net: Unknown Pin: Pin *8-1
+Add Pin To Net: Unknown Pin: Pin *8-2
+Add Pin To Net: Unknown Pin: Pin *9-1
+Add Pin To Net: Unknown Pin: Pin *9-2
+Added Pin To Net: NetName=3.3V (High Side) Pin=C1-1
+Added Pin To Net: NetName=HV- Pin=C1-2
+Added Pin To Net: NetName=3.3V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=3.3V Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=3.3V Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=HV+ MC Unfused Pin=F2-1
+Added Pin To Net: NetName=HV+ MC Pin=F2-2
+Added Pin To Net: NetName=NetIC5_6 Pin=IC5-6
+Added Pin To Net: NetName=NetIC5_6 Pin=IC5-8
+Added Pin To Net: NetName=NetIC5_14 Pin=IC5-14
+Added Pin To Net: NetName=NetC24_1 Pin=IC6-1
+Added Pin To Net: NetName=24V Pin=IC6-2
+Added Pin To Net: NetName=NetIC6_4 Pin=IC6-4
+Added Pin To Net: NetName=FB Pin=IC6-5
+Added Pin To Net: NetName=NetC27_1 Pin=IC6-6
+Added Pin To Net: NetName=GND Pin=IC6-7
+Added Pin To Net: NetName=NetC24_2 Pin=IC6-8
+Added Pin To Net: NetName=GND Pin=IC6-9
+Add Net: Net with name "HV+ BAT" already exists
+Add Net: Net with name "SL_Ready" already exists
+Add Differential Pair: Number of nets in differential pair NetD4_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD4_2 is 1 instead of 2
+Add Class Member: Failed to add class member : Component *1 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *2 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *3 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *4 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *5 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *6 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *7 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *8 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *9 GENERIC RESISTOR 1206
+Added Member To Class: ClassName=VoltageSense Member=Component C1 100n
+Added Member To Class: ClassName=VoltageSense Member=Component C2 100n
+Added Member To Class: ClassName=STM32 Member=Component C15 100n
+Added Member To Class: ClassName=STM32 Member=Component C16 100n
+Added Member To Class: ClassName=VoltageSense Member=Component F2 0ADKP0500-RE
+Added Member To Class: ClassName=eFuse Member=Component IC5 TPS26600PWPR
+Added Member To Class: ClassName=24V to 3.3V Buck Member=Component IC6 TPS54560BQDDARQ1

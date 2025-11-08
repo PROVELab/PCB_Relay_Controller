@@ -1,0 +1,71 @@
+Removed Member From Class: ClassName=STM32 Member=C29
+Removed Member From Class: ClassName=STM32 Member=C30
+Removed Member From Class: ClassName=STM32 Member=C31
+Removed Member From Class: ClassName=STM32 Member=C32
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found GENERIC 1206
+Add component: Footprint Not Found 0ADKP0500-RE
+Add Pin To Net: Unknown Pin: Pin *1-1
+Add Pin To Net: Unknown Pin: Pin *2-1
+Add Pin To Net: Unknown Pin: Pin *3-1
+Add Pin To Net: Unknown Pin: Pin *3-2
+Add Pin To Net: Unknown Pin: Pin *4-1
+Add Pin To Net: Unknown Pin: Pin *4-2
+Add Pin To Net: Unknown Pin: Pin *5-1
+Add Pin To Net: Unknown Pin: Pin *5-2
+Add Pin To Net: Unknown Pin: Pin *6-1
+Add Pin To Net: Unknown Pin: Pin *6-2
+Add Pin To Net: Unknown Pin: Pin *7-1
+Add Pin To Net: Unknown Pin: Pin *7-2
+Add Pin To Net: Unknown Pin: Pin *8-1
+Add Pin To Net: Unknown Pin: Pin *8-2
+Add Pin To Net: Unknown Pin: Pin *9-1
+Add Pin To Net: Unknown Pin: Pin *9-2
+Add Pin To Net: Unknown Pin: Pin F2-1
+Change Net Name : Old Net Name=HV+ MC New Net Name=HV+ MC Unfused
+Add Net: Net with name "HV+ BAT" already exists
+Added Net: Name=HV+ MC
+Add Net: Net with name "SL_Ready" already exists
+Add Differential Pair: Number of nets in differential pair NetD4_1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetD4_2 is 1 instead of 2
+Add Class Member: Failed to add class member : Component *1 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *2 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *3 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *4 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *5 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *6 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *7 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *8 GENERIC RESISTOR 1206
+Add Class Member: Failed to add class member : Component *9 GENERIC RESISTOR 1206
+Added Member To Class: ClassName=STM32 Member=Component C3 4.7u
+Added Member To Class: ClassName=STM32 Member=Component C5 100n
+Added Member To Class: ClassName=STM32 Member=Component C7 100n
+Added Member To Class: ClassName=STM32 Member=Component C9 100n
+Added Member To Class: ClassName=STM32 Member=Component C10 100n
+Added Member To Class: ClassName=STM32 Member=Component C11 100n
+Added Member To Class: ClassName=STM32 Member=Component C12 100n
+Added Member To Class: ClassName=STM32 Member=Component C13 100n
+Added Member To Class: ClassName=STM32 Member=Component C17 100n
+Added Member To Class: ClassName=STM32 Member=Component C18 100n
+Added Member To Class: ClassName=STM32 Member=Component C19 1u
+Added Member To Class: ClassName=STM32 Member=Component C21 100n
+Add Class Member: Failed to add class member : Component F2 0ADKP0500-RE
+Added Member To Class: ClassName=VoltageSense Member=Component R1 12.1k
+Added Member To Class: ClassName=VoltageSense Member=Component R2 12.1k
+Added Member To Class: ClassName=VoltageSense Member=Component R3 2k
+Added Member To Class: ClassName=VoltageSense Member=Component R4 2k
+Added Member To Class: ClassName=VoltageSense Member=Component R5 2k
+Added Member To Class: ClassName=STM32 Member=Component R7 33
+Added Member To Class: ClassName=STM32 Member=Component R8 33
+Added Member To Class: ClassName=Relay Controller Member=Component R9 TWW20J100E
+Added Member To Class: ClassName=Relay Controller Member=Component R10 TWW20J100E
+Added Member To Class: ClassName=Relay Controller Member=Component R11 TWW20J100E
+Added Member To Class: ClassName=Relay Controller Member=Component R12 TWW20J100E
+Added Member To Class: ClassName=Relay Controller Member=Component R13 TWW20J100E

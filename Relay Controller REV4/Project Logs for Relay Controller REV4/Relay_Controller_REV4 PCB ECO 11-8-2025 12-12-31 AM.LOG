@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SL_Ready Pin=LED?-2
+Removed Pin From Net: NetName=- Relay GND Pin=R?-2
+Removed Member From Class: ClassName=Relay Controller Member=LED?
+Removed Member From Class: ClassName=Relay Controller Member=R?
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2

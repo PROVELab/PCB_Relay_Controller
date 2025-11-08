@@ -1,0 +1,36 @@
+Added Component: Designator=K1(KT241A40LSMD)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.de/datasheet/2/262/9024185401e-1633625.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Meder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "KT24-1A-40L-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "876-KT24-1A-40L-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/MEDER-electronic-Standex/KT24-1A-40L-SMD?qs=mUCnLpxNPte72XvEBELL9g%3D%3D"; VariantName = "[No Variations]"
+Add component: Footprint Not Found SOT95P240X100-3N
+Add component: Footprint Not Found SOT95P240X100-3N
+Add component: Footprint Not Found SOT95P240X100-3N
+Added Pin To Net: NetName=HV+ BAT Pin=K1-1
+Added Pin To Net: NetName=SL_Ready Pin=K1-3
+Added Pin To Net: NetName=Precharge Relay GND Pin=K1-4
+Add Pin To Net: Unknown Pin: Pin M1-1
+Add Pin To Net: Unknown Pin: Pin M1-2
+Add Pin To Net: Unknown Pin: Pin M1-3
+Add Pin To Net: Unknown Pin: Pin M2-1
+Add Pin To Net: Unknown Pin: Pin M2-2
+Add Pin To Net: Unknown Pin: Pin M2-3
+Add Pin To Net: Unknown Pin: Pin M3-1
+Add Pin To Net: Unknown Pin: Pin M3-2
+Add Pin To Net: Unknown Pin: Pin M3-3
+Change Net Name : Old Net Name=ILIM New Net Name=ILI
+Change Net Name : Old Net Name=IMON New Net Name=IMO
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetK1_2 Pin=R9-1
+Added Pin To Net: NetName=NetK1_2 Pin=R9-4
+Added Net: Name=NetK1_2
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2
+Added Member To Class: ClassName=Relay Controller Member=Component K1 KT24-1A-40L-SMD
+Add Class Member: Failed to add class member : Component M1 ZXMS6004FF-7
+Add Class Member: Failed to add class member : Component M2 ZXMS6004FF-7
+Add Class Member: Failed to add class member : Component M3 ZXMS6004FF-7

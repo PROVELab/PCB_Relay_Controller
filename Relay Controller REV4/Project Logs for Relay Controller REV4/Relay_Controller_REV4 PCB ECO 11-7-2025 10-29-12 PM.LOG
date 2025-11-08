@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetC39_1 New Net Name=dVdT
+Change Net Name : Old Net Name=NetIC5_10 New Net Name=IMON
+Change Net Name : Old Net Name=NetIC5_11 New Net Name=ILIM
+Change Net Name : Old Net Name=NetIC5_14 New Net Name=!FLT EFUSE
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2

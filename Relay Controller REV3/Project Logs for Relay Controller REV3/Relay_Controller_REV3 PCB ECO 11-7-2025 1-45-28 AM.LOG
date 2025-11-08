@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=+ Sig NewDesignator=LED1_U_LED3
+Change Component Designator: OldDesignator=- Sig NewDesignator=LED1_U_LED2
+Change Component Designator: OldDesignator=IC1LED1 NewDesignator=IC1_U_LED1
+Change Component Designator: OldDesignator=ICLED2 NewDesignator=IC1_U_LED2
+Change Component Designator: OldDesignator=ICLED3 NewDesignator=IC1_U_LED3
+Change Component Designator: OldDesignator=PC Sig NewDesignator=LED1_U_LED1
+Change Component Designator: OldDesignator=R6LED1 NewDesignator=R6_U_LED1
+Change Component Designator: OldDesignator=R6LED2 NewDesignator=R6_U_LED2
+Change Component Designator: OldDesignator=R6LED3 NewDesignator=R6_U_LED3

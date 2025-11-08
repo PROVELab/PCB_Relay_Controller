@@ -1,0 +1,14 @@
+Add component: Footprint Not Found GENERIC 1206
+Add Pin To Net: Unknown Pin: Pin *9-1
+Add Pin To Net: Unknown Pin: Pin *9-2
+Added Pin To Net: NetName=HV+ BAT Pin=R2-2
+Add Net: Net with name "SL_Ready" already exists
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2
+Add Class Member: Failed to add class member : Component *9 GENERIC RESISTOR 1206
+Added Member To Class: ClassName=VoltageSense Member=Component R1 510k
+Added Member To Class: ClassName=VoltageSense Member=Component R2 510k
+Added Member To Class: ClassName=VoltageSense Member=Component R3 510k
+Added Member To Class: ClassName=VoltageSense Member=Component R4 510k
+Added Member To Class: ClassName=VoltageSense Member=Component R5 510k
+Added Member To Class: ClassName=VoltageSense Member=Component R6 510k

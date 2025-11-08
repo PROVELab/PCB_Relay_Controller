@@ -1,0 +1,17 @@
+Added Component: Designator=M1(SOT95P240X100-3N)
+Added Component: Designator=M2(SOT95P240X100-3N)
+Added Component: Designator=M3(SOT95P240X100-3N)
+Added Pin To Net: NetName=+ Signal Pin=M1-1
+Added Pin To Net: NetName=GND Pin=M1-2
+Added Pin To Net: NetName=+ Relay GND Pin=M1-3
+Added Pin To Net: NetName=- Signal Pin=M2-1
+Added Pin To Net: NetName=GND Pin=M2-2
+Added Pin To Net: NetName=- Relay GND Pin=M2-3
+Added Pin To Net: NetName=PC Signal Pin=M3-1
+Added Pin To Net: NetName=GND Pin=M3-2
+Added Pin To Net: NetName=Precharge Relay GND Pin=M3-3
+Add Differential Pair: Number of nets in differential pair CAN H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN L is 1 instead of 2
+Added Member To Class: ClassName=Relay Controller Member=Component M1 ZXMS6004FF-7
+Added Member To Class: ClassName=Relay Controller Member=Component M2 ZXMS6004FF-7
+Added Member To Class: ClassName=Relay Controller Member=Component M3 ZXMS6004FF-7
