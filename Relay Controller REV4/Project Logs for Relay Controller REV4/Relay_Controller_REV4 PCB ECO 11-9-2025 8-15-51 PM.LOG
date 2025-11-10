@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=PRECHARGE_FAIL NewDesignator=PC FAIL
+Change Net Name : Old Net Name=NetPRECHARGE_FAIL_1 New Net Name=NetPC FAIL_1

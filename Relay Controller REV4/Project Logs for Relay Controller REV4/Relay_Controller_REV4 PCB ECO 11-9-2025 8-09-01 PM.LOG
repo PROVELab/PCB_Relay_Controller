@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=PCE Pin=IC3-52
+Added Pin To Net: NetName=PC_Fail Pin=IC3-51
+Added Pin To Net: NetName=PCE Pin=IC3-53

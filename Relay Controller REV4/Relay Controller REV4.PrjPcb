@@ -68,7 +68,7 @@ DocumentUniqueId=EYLGDYGP
 
 [Document2]
 DocumentPath=STM32.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -101,6 +101,23 @@ GenerateClassCluster=0
 DocumentUniqueId=DZWJERJR
 
 [Document4]
+DocumentPath=Precharge_Fail.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MRNTLEAO
+
+[Document5]
 DocumentPath=LEDs.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -117,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOPHNABY
 
-[Document5]
+[Document6]
 DocumentPath=LED_Driver.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -134,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CKUJAROX
 
-[Document6]
+[Document7]
 DocumentPath=eFuse.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -151,9 +168,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QZEGRHGV
 
-[Document7]
+[Document8]
 DocumentPath=Connectors.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TWXDGKDX
 
-[Document8]
+[Document9]
 DocumentPath=24V_Buck_3_3V.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ANXLFBZW
 
-[Document9]
+[Document10]
 DocumentPath=3V3_Isolation.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EUUPPWBI
 
-[Document10]
+[Document11]
 DocumentPath=Top_Level.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYAOSHKV
 
-[Document11]
+[Document12]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MSILBOJG
 
-[Document12]
+[Document13]
 DocumentPath=Relay_Controller_REV4.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

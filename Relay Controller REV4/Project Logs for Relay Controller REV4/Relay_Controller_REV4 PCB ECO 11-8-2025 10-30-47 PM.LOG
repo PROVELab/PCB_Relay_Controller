@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=LED_Driver Member=SLReady
+Change Component Designator: OldDesignator=IC4_SLReady NewDesignator=IC4_SLR
+Change Component Designator: OldDesignator=LED1_SLReady NewDesignator=LED1_SLR
+Change Component Designator: OldDesignator=R14_SLReady NewDesignator=R14_SLR
+Change Net Name : Old Net Name=NetIC4_SLReady_3 New Net Name=NetIC4_SLR_3
+Change Net Name : Old Net Name=NetLED1_SLReady_1 New Net Name=NetLED1_SLR_1
+Change Class Name : Old Net Name=SLReady New Net Name=SLR
+Added Member To Class: ClassName=LED_Driver Member=SLR (LED_Driver.SchDoc)

@@ -1,0 +1,40 @@
+Removed Member From Class: ClassName=LED_Driver Member=U_LED1
+Removed Member From Class: ClassName=LED_Driver Member=U_LED2
+Removed Member From Class: ClassName=LED_Driver Member=U_LED3
+Removed Member From Class: ClassName=LED_Driver Member=U_LED4
+Removed Member From Class: ClassName=LED_Driver Member=U_LED5
+Change Component Designator: OldDesignator=IC4_U_LED1 NewDesignator=IC4_SLReady
+Change Component Designator: OldDesignator=IC4_U_LED2 NewDesignator=IC4_Heartbeat
+Change Component Designator: OldDesignator=IC4_U_LED3 NewDesignator=IC4_PC
+Change Component Designator: OldDesignator=IC4_U_LED4 NewDesignator=IC4_-
+Change Component Designator: OldDesignator=IC4_U_LED5 NewDesignator=IC4_+
+Change Component Designator: OldDesignator=LED1_U_LED1 NewDesignator=LED1_SLReady
+Change Component Designator: OldDesignator=LED1_U_LED2 NewDesignator=LED1_Heartbeat
+Change Component Designator: OldDesignator=LED1_U_LED3 NewDesignator=LED1_PC
+Change Component Designator: OldDesignator=LED1_U_LED4 NewDesignator=LED1_-
+Change Component Designator: OldDesignator=LED1_U_LED5 NewDesignator=LED1_+
+Change Component Designator: OldDesignator=R14_U_LED1 NewDesignator=R14_SLReady
+Change Component Designator: OldDesignator=R14_U_LED2 NewDesignator=R14_Heartbeat
+Change Component Designator: OldDesignator=R14_U_LED3 NewDesignator=R14_PC
+Change Component Designator: OldDesignator=R14_U_LED4 NewDesignator=R14_-
+Change Component Designator: OldDesignator=R14_U_LED5 NewDesignator=R14_+
+Change Net Name : Old Net Name=NetIC4_U_LED1_3 New Net Name=NetIC4_SLReady_3
+Change Net Name : Old Net Name=NetIC4_U_LED2_3 New Net Name=NetIC4_Heartbeat_3
+Change Net Name : Old Net Name=NetIC4_U_LED3_3 New Net Name=NetIC4_PC_3
+Change Net Name : Old Net Name=NetIC4_U_LED4_3 New Net Name=NetIC4_-_3
+Change Net Name : Old Net Name=NetIC4_U_LED5_3 New Net Name=NetIC4_+_3
+Change Net Name : Old Net Name=NetLED1_U_LED1_1 New Net Name=NetLED1_SLReady_1
+Change Net Name : Old Net Name=NetLED1_U_LED2_1 New Net Name=NetLED1_Heartbeat_1
+Change Net Name : Old Net Name=NetLED1_U_LED3_1 New Net Name=NetLED1_PC_1
+Change Net Name : Old Net Name=NetLED1_U_LED4_1 New Net Name=NetLED1_-_1
+Change Net Name : Old Net Name=NetLED1_U_LED5_1 New Net Name=NetLED1_+_1
+Change Class Name : Old Net Name=U_LED1 New Net Name=SLReady
+Change Class Name : Old Net Name=U_LED2 New Net Name=Heartbeat
+Change Class Name : Old Net Name=U_LED3 New Net Name=PC
+Change Class Name : Old Net Name=U_LED4 New Net Name=-
+Change Class Name : Old Net Name=U_LED5 New Net Name=+
+Added Member To Class: ClassName=LED_Driver Member=+ (LED_Driver.SchDoc)
+Added Member To Class: ClassName=LED_Driver Member=- (LED_Driver.SchDoc)
+Added Member To Class: ClassName=LED_Driver Member=Heartbeat (LED_Driver.SchDoc)
+Added Member To Class: ClassName=LED_Driver Member=PC (LED_Driver.SchDoc)
+Added Member To Class: ClassName=LED_Driver Member=SLReady (LED_Driver.SchDoc)

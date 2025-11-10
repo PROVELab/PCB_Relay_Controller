@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=HV+ Battery Pin=F3-2
+Added Pin To Net: NetName=HV+ Battery Pin=R2-2
+Added Net: Name=HV+ Battery
+Add Net: Net with name "PC_ENABLE" already exists

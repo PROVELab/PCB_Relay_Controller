@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=PC_Enable New Net Name=PCE
+Added Pin To Net: NetName=PC_Enable Pin=J2-4
+Added Pin To Net: NetName=PC_Enable Pin=R39-1
+Added Pin To Net: NetName=PC_Enable Pin=R40-1
+Added Net: Name=PC_Enable

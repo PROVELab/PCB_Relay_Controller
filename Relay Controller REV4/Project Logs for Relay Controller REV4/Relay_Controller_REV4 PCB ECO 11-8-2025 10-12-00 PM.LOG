@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=LED_Driver Member=Heartbeat
+Change Component Designator: OldDesignator=IC4_Heartbeat NewDesignator=IC4_HB
+Change Component Designator: OldDesignator=LED1_Heartbeat NewDesignator=LED1_HB
+Change Component Designator: OldDesignator=R14_Heartbeat NewDesignator=R14_HB
+Change Net Name : Old Net Name=NetIC4_Heartbeat_3 New Net Name=NetIC4_HB_3
+Change Net Name : Old Net Name=NetLED1_Heartbeat_1 New Net Name=NetLED1_HB_1
+Change Class Name : Old Net Name=Heartbeat New Net Name=HB
+Added Member To Class: ClassName=LED_Driver Member=HB (LED_Driver.SchDoc)

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=PC Switch COM Pin=IC3-52
+Added Pin To Net: NetName=IMON Pin=IC3-41
+Added Pin To Net: NetName=GND Pin=J2-1

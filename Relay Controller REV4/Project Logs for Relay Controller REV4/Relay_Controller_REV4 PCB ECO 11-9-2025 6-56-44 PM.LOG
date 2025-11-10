@@ -1,0 +1,5 @@
+Added Component: Designator=F3(0ADKP0500-RE)
+Added Pin To Net: NetName=HV+ BAT Pin=F3-1
+Add Net: Net with name "HV+ BAT" already exists
+Add Net: Net with name "PC_Enable" already exists
+Added Member To Class: ClassName=VoltageSense Member=Component F3 0ADKP0500-RE

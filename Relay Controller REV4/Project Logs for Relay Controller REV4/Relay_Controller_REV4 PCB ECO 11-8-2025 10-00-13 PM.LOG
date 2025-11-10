@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=Heartbeat Pin=IC3-39
+Added Pin To Net: NetName=Heartbeat Pin=IC3-16
