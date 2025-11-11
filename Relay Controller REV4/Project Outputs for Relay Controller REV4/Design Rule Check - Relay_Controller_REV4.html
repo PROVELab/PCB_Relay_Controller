@@ -1,0 +1,670 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD25\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11/11/2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2:14:17 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc" class="file"><acronym title="C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc">C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">98</td></tr>
+</table>
+</td>
+</table><a name="ID0E4JKMWELO04MQAC3ZNYYKRRFGDXXWQZMI4W4ZK2XJUVFQ0EER0L"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDH4AFFBZLVD3SGS1DNSQA1U311GGAHB5HYIN5AKB1LS5BE0VLPN3I">Clearance Constraint (Gap=8mil) (OnLayer('Bottom Layer')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGFYW5HEQVVGCCCXNEGQDNWAGLCQP2Y2O1JDFOSDASRHZGUH2S0ZG">Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDH223VUWOOUR1DY0ITU3MIMWDGJTZJOEIQH5NUWBHSJJVC3VSISJI">Clearance Constraint (Gap=7.874mil) (All),(All)</a></td>
+<td class="column2">15</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGDMRFOE30J1OPCARHVWKTCY3CIF5NZEHTY0NFLOCPIT1SQ5DNN">Clearance Constraint (Gap=7.874mil) (All),(All)</a></td>
+<td class="column2">15</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDA044YCOXG2MW3QPUYK0GPJO2FFSMZQJ1G3MEDPV10TBBGJPO1UE">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDA0PH1EM3GC3LDCLDN5NNO2YI2MJ4R4LKCHUCWRF3IQXVRFFIZLSO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGXXL1LSG1J03GKPL20S5K5D1JEQIAJQFYNPMYRL2QNSATGBKMSWO">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJEBPTRCPOOGPMHVUNWHECAEY4L3O4JHHQXDGPNDYMXJLEDKGSR5N">Width Constraint (Min=3.5mil) (Max=100mil) (Preferred=15mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDS2QMQ5GX3IW1JAUFIUULL1U0ZBI3WWMLU0EDDAMASQ3H3ECC5VMJ">Routing Topology Rule(Topology=Shortest) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUXRKC0E10AY1HBRHTGK10T44EFP4UEC1BZYKAPPFWK0EAIKKE42P">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLFRLEWOKWZ4KKQF2WP5PVPYALNQIQAN2KW4HNYERIU1JMEUQPCD">Minimum Annular Ring (Minimum=5.118mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFW0RTPGA3E0WJZO22IV312ST5CZQ5WGB2T0I3BIFSZYNAPEX3XSF">Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLPQBQK4PUY30D3P4SUVFAXZXJOHFUUUM1K0TUWIE3XQGYRKHFMDM">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDK3BVKXD0AW4AFW54VREKZ3Z1AIFIFCRHCYIO45BIOCSTYIYCOCML">Minimum Solder Mask Sliver (Gap=3.937mil) (All),(All)</a></td>
+<td class="column2">19</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDC3ZNT1WZOKAQH4Y0K2HSUUEBLKVMCF0UOEEANYC3J25BDUBUEPHH">Silk To Solder Mask (Clearance=3.937mil) (IsPad),(All)</a></td>
+<td class="column2">25</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSGNNMHT1B3NTEDY53AIRUIQPTLC5B1SYTCA4NVJW4FIWE2JBUJVI">Silk to Silk (Clearance=3.937mil) (All),(All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHNCFRHIQNTNZMDPUQPKW1UX5KOHR4IVW1GSB04P30PH3LTS1RZGI">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4YSR2CO1II25NJLFG5QTFCJ5YHXH1FNWSHNVRYESOVVEZFVBORXN">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJQJYKCP5VPROJUMKTHORYEQFKTCJOMQA3NOVGHDSKPTFWSZXGDG">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">98</td>
+</tr>
+</table><br><a name="IDH223VUWOOUR1DY0ITU3MIMWDGJTZJOEIQH5NUWBHSJJVC3VSISJI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=7.874mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3010.833mil|Location2.X=3015.167mil|Location1.Y=2628.833mil|Location2.Y=2633.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3010.833mil|Location2.X=3015.167mil|Location1.Y=2628.833mil|Location2.Y=2633.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3013mil,2631mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3010.833mil|Location2.X=3015.167mil|Location1.Y=2750.155mil|Location2.Y=2754.488mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3010.833mil|Location2.X=3015.167mil|Location1.Y=2750.155mil|Location2.Y=2754.488mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3013mil,2752.321mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3068.833mil|Location2.X=3073.167mil|Location1.Y=2687.833mil|Location2.Y=2692.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3068.833mil|Location2.X=3073.167mil|Location1.Y=2687.833mil|Location2.Y=2692.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3071mil,2690mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.833mil|Location2.X=3129.167mil|Location1.Y=2628.833mil|Location2.Y=2633.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.833mil|Location2.X=3129.167mil|Location1.Y=2628.833mil|Location2.Y=2633.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3127mil,2631mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.833mil|Location2.X=3129.167mil|Location1.Y=2750.155mil|Location2.Y=2754.488mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3124.833mil|Location2.X=3129.167mil|Location1.Y=2750.155mil|Location2.Y=2754.488mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3127mil,2752.321mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2810.833mil|Location2.X=2815.167mil|Location1.Y=1799.833mil|Location2.Y=1804.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2810.833mil|Location2.X=2815.167mil|Location1.Y=1799.833mil|Location2.Y=1804.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2813mil,1802mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2810.833mil|Location2.X=2815.167mil|Location1.Y=1864.833mil|Location2.Y=1869.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2810.833mil|Location2.X=2815.167mil|Location1.Y=1864.833mil|Location2.Y=1869.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2813mil,1867mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2836.833mil|Location2.X=2841.167mil|Location1.Y=1831.833mil|Location2.Y=1836.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2836.833mil|Location2.X=2841.167mil|Location1.Y=1831.833mil|Location2.Y=1836.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2839mil,1834mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2859.833mil|Location2.X=2864.167mil|Location1.Y=1799.833mil|Location2.Y=1804.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2859.833mil|Location2.X=2864.167mil|Location1.Y=1799.833mil|Location2.Y=1804.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2862mil,1802mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2859.833mil|Location2.X=2864.167mil|Location1.Y=1864.833mil|Location2.Y=1869.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2859.833mil|Location2.X=2864.167mil|Location1.Y=1864.833mil|Location2.Y=1869.167mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2862mil,1867mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3323.479mil|Location2.X=3327.812mil|Location1.Y=2451.503mil|Location2.Y=2455.836mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3323.479mil|Location2.X=3327.812mil|Location1.Y=2451.503mil|Location2.Y=2455.836mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3325.646mil,2453.669mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3323.479mil|Location2.X=3327.812mil|Location1.Y=2505.637mil|Location2.Y=2509.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3323.479mil|Location2.X=3327.812mil|Location1.Y=2505.637mil|Location2.Y=2509.97mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3325.646mil,2507.803mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3363.833mil|Location2.X=3368.167mil|Location1.Y=2479.062mil|Location2.Y=2483.395mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3363.833mil|Location2.X=3368.167mil|Location1.Y=2479.062mil|Location2.Y=2483.395mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3366mil,2481.228mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3405.172mil|Location2.X=3409.505mil|Location1.Y=2451.503mil|Location2.Y=2455.836mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3405.172mil|Location2.X=3409.505mil|Location1.Y=2451.503mil|Location2.Y=2455.836mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3407.339mil,2453.669mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3405.172mil|Location2.X=3409.505mil|Location1.Y=2505.637mil|Location2.Y=2509.97mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3405.172mil|Location2.X=3409.505mil|Location1.Y=2505.637mil|Location2.Y=2509.97mil|Absolute=True">Clearance Constraint: (Collision &lt; 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3407.339mil,2507.803mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDGDMRFOE30J1OPCARHVWKTCY3CIF5NZEHTY0NFLOCPIT1SQ5DNN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=7.874mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1641.532mil|Location2.X=1662.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1641.532mil|Location2.X=1662.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-3(1677mil,4848mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1841.532mil|Location2.X=1862.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1841.532mil|Location2.X=1862.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1791.532mil|Location2.X=1812.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1791.532mil|Location2.X=1812.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.533mil|Location2.X=1907.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1866.533mil|Location2.X=1907.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1891.532mil|Location2.X=1912.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1891.532mil|Location2.X=1912.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-13(1927mil,4848mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1841.532mil|Location2.X=1862.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1841.532mil|Location2.X=1862.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1891.532mil|Location2.X=1912.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1891.532mil|Location2.X=1912.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-12(1877mil,4898mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1641.532mil|Location2.X=1662.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1641.532mil|Location2.X=1662.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-2(1627mil,4898mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1666.533mil|Location2.X=1707.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1666.533mil|Location2.X=1707.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1691.532mil|Location2.X=1712.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1691.532mil|Location2.X=1712.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-5(1727mil,4848mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1691.532mil|Location2.X=1712.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1691.532mil|Location2.X=1712.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-4(1677mil,4898mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1716.533mil|Location2.X=1757.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1716.533mil|Location2.X=1757.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1741.532mil|Location2.X=1762.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1741.532mil|Location2.X=1762.467mil|Location1.Y=4867.145mil|Location2.Y=4908.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-6(1727mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1766.533mil|Location2.X=1807.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1766.533mil|Location2.X=1807.855mil|Location1.Y=4862.532mil|Location2.Y=4883.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1791.532mil|Location2.X=1812.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1791.532mil|Location2.X=1812.467mil|Location1.Y=4817.145mil|Location2.Y=4858.467mil|Absolute=True">Clearance Constraint: (10.63mil &lt; 19.685mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDK3BVKXD0AW4AFW54VREKZ3Z1AIFIFCRHCYIO45BIOCSTYIYCOCML"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=3.937mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1624.407mil|Location2.X=1629.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1624.407mil|Location2.X=1629.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-2(1627mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1649.406mil|Location2.X=1654.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1649.406mil|Location2.X=1654.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-3(1677mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1849.406mil|Location2.X=1854.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1849.406mil|Location2.X=1854.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1799.406mil|Location2.X=1804.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1799.406mil|Location2.X=1804.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1824.407mil|Location2.X=1829.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1824.407mil|Location2.X=1829.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1874.407mil|Location2.X=1879.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1874.407mil|Location2.X=1879.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1899.406mil|Location2.X=1904.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1899.406mil|Location2.X=1904.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-13(1927mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1849.406mil|Location2.X=1854.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1849.406mil|Location2.X=1854.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1899.406mil|Location2.X=1904.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1899.406mil|Location2.X=1904.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-12(1877mil,4898mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1924.407mil|Location2.X=1929.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1924.407mil|Location2.X=1929.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-13(1927mil,4848mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1649.406mil|Location2.X=1654.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1649.406mil|Location2.X=1654.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-2(1627mil,4898mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1674.407mil|Location2.X=1679.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1674.407mil|Location2.X=1679.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1699.406mil|Location2.X=1704.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1699.406mil|Location2.X=1704.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-5(1727mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1699.406mil|Location2.X=1704.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1699.406mil|Location2.X=1704.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-4(1677mil,4898mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1724.407mil|Location2.X=1729.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1724.407mil|Location2.X=1729.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1749.406mil|Location2.X=1754.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1749.406mil|Location2.X=1754.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-7(1777mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1749.406mil|Location2.X=1754.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1749.406mil|Location2.X=1754.593mil|Location1.Y=4895.407mil|Location2.Y=4900.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-6(1727mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1774.407mil|Location2.X=1779.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1774.407mil|Location2.X=1779.593mil|Location1.Y=4870.406mil|Location2.Y=4875.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1799.406mil|Location2.X=1804.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1799.406mil|Location2.X=1804.593mil|Location1.Y=4845.407mil|Location2.Y=4850.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (2.63mil &lt; 3.937mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDC3ZNT1WZOKAQH4Y0K2HSUUEBLKVMCF0UOEEANYC3J25BDUBUEPHH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=3.937mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3966.392mil|Location2.Y=3970.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3966.392mil|Location2.Y=3970.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-1(3377.228mil,3981mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3966.392mil|Location2.Y=3970.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3966.392mil|Location2.Y=3970.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-1(3377.228mil,3981mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3966.448mil|Location2.Y=3970.073mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3966.448mil|Location2.Y=3970.073mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-1(3377.228mil,3981mil) on Top Layer And Polygon Track (3411.485mil,3968.261mil)(3442.83mil,3999.605mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3991.839mil|Location2.Y=3995.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3991.839mil|Location2.Y=3995.464mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-1(3377.228mil,3981mil) on Top Layer And Polygon Track (3411.485mil,3993.652mil)(3442.83mil,3962.307mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3916.392mil|Location2.Y=3920.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3916.392mil|Location2.Y=3920.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-2(3377.228mil,3931mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3916.392mil|Location2.Y=3920.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3916.392mil|Location2.Y=3920.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-2(3377.228mil,3931mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3405.351mil|Location2.X=3412.305mil|Location1.Y=3914.914mil|Location2.Y=3921.938mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3405.351mil|Location2.X=3412.305mil|Location1.Y=3914.914mil|Location2.Y=3921.938mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.971mil &lt; 3.937mil) Between Pad IC2-2(3377.228mil,3931mil) on Top Layer And Polygon Track (3411.485mil,3912.583mil)(3442.83mil,3943.928mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.971mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3936.162mil|Location2.Y=3939.786mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3936.162mil|Location2.Y=3939.786mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-2(3377.228mil,3931mil) on Top Layer And Polygon Track (3411.485mil,3937.974mil)(3442.83mil,3906.629mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3866.392mil|Location2.Y=3870.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3866.392mil|Location2.Y=3870.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-3(3377.228mil,3881mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3866.392mil|Location2.Y=3870.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3866.392mil|Location2.Y=3870.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-3(3377.228mil,3881mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3880.484mil|Location2.Y=3884.109mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3880.484mil|Location2.Y=3884.109mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-3(3377.228mil,3881mil) on Top Layer And Polygon Track (3411.485mil,3882.296mil)(3442.83mil,3850.952mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3816.392mil|Location2.Y=3820.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3816.392mil|Location2.Y=3820.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-4(3377.228mil,3831mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3816.392mil|Location2.Y=3820.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3816.392mil|Location2.Y=3820.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-4(3377.228mil,3831mil) on Top Layer And Polygon Track (3411.485mil,3762.268mil)(3411.485mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3824.806mil|Location2.Y=3828.431mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3409.673mil|Location2.X=3413.297mil|Location1.Y=3824.806mil|Location2.Y=3828.431mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-4(3377.228mil,3831mil) on Top Layer And Polygon Track (3411.485mil,3826.619mil)(3442.83mil,3795.274mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3833.09mil|Location2.Y=3836.714mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3833.09mil|Location2.Y=3836.714mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-5(3590.772mil,3831mil) on Top Layer And Polygon Track (3527.14mil,3805.527mil)(3556.515mil,3834.902mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3557.689mil|Location2.X=3565.091mil|Location1.Y=3841.736mil|Location2.Y=3848.713mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3557.689mil|Location2.X=3565.091mil|Location1.Y=3841.736mil|Location2.Y=3848.713mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.422mil &lt; 3.937mil) Between Pad IC2-5(3590.772mil,3831mil) on Top Layer And Polygon Track (3527.14mil,3877.996mil)(3556.515mil,3848.622mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.422mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3816.392mil|Location2.Y=3820.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3816.392mil|Location2.Y=3820.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-5(3590.772mil,3831mil) on Top Layer And Polygon Track (3556.515mil,3762.268mil)(3556.515mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3888.767mil|Location2.Y=3892.392mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3888.767mil|Location2.Y=3892.392mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-6(3590.772mil,3881mil) on Top Layer And Polygon Track (3527.14mil,3861.205mil)(3556.515mil,3890.58mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3866.392mil|Location2.Y=3870.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3866.392mil|Location2.Y=3870.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-6(3590.772mil,3881mil) on Top Layer And Polygon Track (3556.515mil,3762.268mil)(3556.515mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3944.445mil|Location2.Y=3948.07mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3944.445mil|Location2.Y=3948.07mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-7(3590.772mil,3931mil) on Top Layer And Polygon Track (3527.14mil,3916.883mil)(3556.515mil,3946.258mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3916.392mil|Location2.Y=3920.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3916.392mil|Location2.Y=3920.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-7(3590.772mil,3931mil) on Top Layer And Polygon Track (3556.515mil,3762.268mil)(3556.515mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3556.832mil|Location2.X=3563.786mil|Location1.Y=3992.528mil|Location2.Y=3999.552mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3556.832mil|Location2.X=3563.786mil|Location1.Y=3992.528mil|Location2.Y=3999.552mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.752mil &lt; 3.937mil) Between Pad IC2-8(3590.772mil,3981mil) on Top Layer And Polygon Track (3527.14mil,3972.561mil)(3556.515mil,4001.935mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.752mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3556.81mil|Location2.X=3563.834mil|Location1.Y=3962.496mil|Location2.Y=3969.45mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3556.81mil|Location2.X=3563.834mil|Location1.Y=3962.496mil|Location2.Y=3969.45mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.814mil &lt; 3.937mil) Between Pad IC2-8(3590.772mil,3981mil) on Top Layer And Polygon Track (3527.14mil,3989.352mil)(3556.515mil,3959.977mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.814mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3966.392mil|Location2.Y=3970.017mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.703mil|Location2.X=3558.327mil|Location1.Y=3966.392mil|Location2.Y=3970.017mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad IC2-8(3590.772mil,3981mil) on Top Layer And Polygon Track (3556.515mil,3762.268mil)(3556.515mil,4468.732mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1545.755mil|Location2.X=1549.379mil|Location1.Y=4344.188mil|Location2.Y=4347.812mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1545.755mil|Location2.X=1549.379mil|Location1.Y=4344.188mil|Location2.Y=4347.812mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 3.937mil) Between Pad R14_HB-1(1583mil,4341.087mil) on Top Layer And Track (1514mil,4346mil)(1788mil,4346mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSGNNMHT1B3NTEDY53AIRUIQPTLC5B1SYTCA4NVJW4FIWE2JBUJVI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=3.937mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2529.965mil|Location2.X=2533.59mil|Location1.Y=2272.188mil|Location2.Y=2275.812mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2529.965mil|Location2.X=2533.59mil|Location1.Y=2272.188mil|Location2.Y=2275.812mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 3.937mil) Between Text "+" (2514.284mil,2284.764mil) on Top Overlay And Track (2480mil,2274mil)(2584mil,2274mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2450.904mil|Location2.X=2456.091mil|Location1.Y=1971.413mil|Location2.Y=1976.6mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2450.904mil|Location2.X=2456.091mil|Location1.Y=1971.413mil|Location2.Y=1976.6mil|Absolute=True">Silk To Silk Clearance Constraint: (1.005mil &lt; 3.937mil) Between Text "24V" (2447.995mil,1954.013mil) on Top Overlay And Track (2459mil,1858mil)(2459mil,2133mil) on Top Overlay Silk Text to Silk Clearance [1.005mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2492.524mil|Location2.X=2499.548mil|Location1.Y=4256.264mil|Location2.Y=4263.218mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2492.524mil|Location2.X=2499.548mil|Location1.Y=4256.264mil|Location2.Y=4263.218mil|Absolute=True">Silk To Silk Clearance Constraint: (3.094mil &lt; 3.937mil) Between Text "C17" (2415.512mil,4226.005mil) on Top Overlay And Track (2457mil,4308mil)(2545mil,4220mil) on Top Overlay Silk Text to Silk Clearance [3.093mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1923.387mil|Location2.X=1928.574mil|Location1.Y=1458.402mil|Location2.Y=1463.589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1923.387mil|Location2.X=1928.574mil|Location1.Y=1458.402mil|Location2.Y=1463.589mil|Absolute=True">Silk To Silk Clearance Constraint: (2.182mil &lt; 3.937mil) Between Text "CAN L" (1805mil,1425mil) on Top Overlay And Track (1872mil,1522mil)(1927mil,1467mil) on Top Overlay Silk Text to Silk Clearance [2.182mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1923.387mil|Location2.X=1928.574mil|Location1.Y=1458.402mil|Location2.Y=1463.589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1923.387mil|Location2.X=1928.574mil|Location1.Y=1458.402mil|Location2.Y=1463.589mil|Absolute=True">Silk To Silk Clearance Constraint: (2.182mil &lt; 3.937mil) Between Text "CAN L" (1805mil,1425mil) on Top Overlay And Track (1927mil,1467mil)(2194mil,1467mil) on Top Overlay Silk Text to Silk Clearance [2.182mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1870.188mil|Location2.X=1873.812mil|Location1.Y=2159.183mil|Location2.Y=2162.807mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1870.188mil|Location2.X=1873.812mil|Location1.Y=2159.183mil|Location2.Y=2162.807mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 3.937mil) Between Text "FL1" (1879.011mil,2131.005mil) on Top Overlay And Track (1872mil,1522mil)(1872mil,3384mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1862.654mil|Location2.X=1867.841mil|Location1.Y=3351.885mil|Location2.Y=3357.072mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1862.654mil|Location2.X=1867.841mil|Location1.Y=3351.885mil|Location2.Y=3357.072mil|Absolute=True">Silk To Silk Clearance Constraint: (3.506mil &lt; 3.937mil) Between Text "IC4_+" (1828.504mil,3354.478mil) on Top Overlay And Track (1872mil,1522mil)(1872mil,3384mil) on Top Overlay Silk Text to Silk Clearance [3.506mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2594.41mil|Location2.X=2599.597mil|Location1.Y=3334.402mil|Location2.Y=3339.589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2594.41mil|Location2.X=2599.597mil|Location1.Y=3334.402mil|Location2.Y=3339.589mil|Absolute=True">Silk To Silk Clearance Constraint: (0.006mil &lt; 3.937mil) Between Text "L1" (2602.006mil,3307.005mil) on Top Overlay And Track (2592mil,2803mil)(2592mil,3389mil) on Top Overlay Silk Text to Silk Clearance [0.006mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1805.659mil|Location2.X=1810.846mil|Location1.Y=2194.011mil|Location2.Y=2199.198mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1805.659mil|Location2.X=1810.846mil|Location1.Y=2194.011mil|Location2.Y=2199.198mil|Absolute=True">Silk To Silk Clearance Constraint: (2.506mil &lt; 3.937mil) Between Text "LED_-" (1819.504mil,2286.576mil) on Top Overlay And Track (1802mil,2082mil)(1802mil,2358mil) on Top Overlay Silk Text to Silk Clearance [2.506mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1806.159mil|Location2.X=1811.346mil|Location1.Y=2855.011mil|Location2.Y=2860.198mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1806.159mil|Location2.X=1811.346mil|Location1.Y=2855.011mil|Location2.Y=2860.198mil|Absolute=True">Silk To Silk Clearance Constraint: (1.506mil &lt; 3.937mil) Between Text "LED_+" (1819.504mil,2947.576mil) on Top Overlay And Track (1803mil,2742mil)(1803mil,3019mil) on Top Overlay Silk Text to Silk Clearance [1.506mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1649.405mil|Location2.X=1654.592mil|Location1.Y=4490.659mil|Location2.Y=4495.846mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1649.405mil|Location2.X=1654.592mil|Location1.Y=4490.659mil|Location2.Y=4495.846mil|Absolute=True">Silk To Silk Clearance Constraint: (2.506mil &lt; 3.937mil) Between Text "LED_HB" (1562.027mil,4504.504mil) on Top Overlay And Track (1514mil,4487mil)(1788mil,4487mil) on Top Overlay Silk Text to Silk Clearance [2.506mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1502.407mil|Location2.X=1507.593mil|Location1.Y=3241.203mil|Location2.Y=3246.39mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1502.407mil|Location2.X=1507.593mil|Location1.Y=3241.203mil|Location2.Y=3246.39mil|Absolute=True">Silk To Silk Clearance Constraint: (3.603mil &lt; 3.937mil) Between Text "M1" (1485.006mil,3207.005mil) on Top Overlay And Track (1498.945mil,3249.535mil)(1530.441mil,3249.535mil) on Top Overlay Silk Text to Silk Clearance [3.603mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3073.899mil|Location2.X=3080.923mil|Location1.Y=2234.139mil|Location2.Y=2241.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3073.899mil|Location2.X=3080.923mil|Location1.Y=2234.139mil|Location2.Y=2241.093mil|Absolute=True">Silk To Silk Clearance Constraint: (2.739mil &lt; 3.937mil) Between Text "R33" (2997.013mil,2204.005mil) on Top Overlay And Track (3057mil,2267mil)(3101mil,2223mil) on Top Overlay Silk Text to Silk Clearance [2.739mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3091.904mil|Location2.X=3097.091mil|Location1.Y=1692.393mil|Location2.Y=1697.581mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3091.904mil|Location2.X=3097.091mil|Location1.Y=1692.393mil|Location2.Y=1697.581mil|Absolute=True">Silk To Silk Clearance Constraint: (3.005mil &lt; 3.937mil) Between Text "R35" (3058.005mil,1694.987mil) on Top Overlay And Track (3101mil,1548mil)(3101mil,2223mil) on Top Overlay Silk Text to Silk Clearance [3.005mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2650.237mil|Location2.X=2655.424mil|Location1.Y=3649.403mil|Location2.Y=3654.59mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2650.237mil|Location2.X=2655.424mil|Location1.Y=3649.403mil|Location2.Y=3654.59mil|Absolute=True">Silk To Silk Clearance Constraint: (1.688mil &lt; 3.937mil) Between Text "R38" (2567.013mil,3627.005mil) on Top Overlay And Track (2658.675mil,3405.325mil)(2658.675mil,3670.918mil) on Top Overlay Silk Text to Silk Clearance [1.688mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2493.418mil|Location2.X=2498.605mil|Location1.Y=2728.404mil|Location2.Y=2733.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2493.418mil|Location2.X=2498.605mil|Location1.Y=2728.404mil|Location2.Y=2733.591mil|Absolute=True">Silk To Silk Clearance Constraint: (2.005mil &lt; 3.937mil) Between Text "R41" (2496.011mil,2695.005mil) on Top Overlay And Track (2376mil,2737mil)(2526mil,2737mil) on Top Overlay Silk Text to Silk Clearance [2.005mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDHNCFRHIQNTNZMDPUQPKW1UX5KOHR4IVW1GSB04P30PH3LTS1RZGI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2989.5mil|Location2.X=3045.743mil|Location1.Y=2607.5mil|Location2.Y=2696.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2989.5mil|Location2.X=3045.743mil|Location1.Y=2607.5mil|Location2.Y=2696.364mil|Absolute=True">Net Antennae: Via (3013mil,2631mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2989.5mil|Location2.X=3045.743mil|Location1.Y=2728.821mil|Location2.Y=2817.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2989.5mil|Location2.X=3045.743mil|Location1.Y=2728.821mil|Location2.Y=2817.685mil|Absolute=True">Net Antennae: Via (3013mil,2752.321mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3047.5mil|Location2.X=3103.743mil|Location1.Y=2666.5mil|Location2.Y=2755.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3047.5mil|Location2.X=3103.743mil|Location1.Y=2666.5mil|Location2.Y=2755.364mil|Absolute=True">Net Antennae: Via (3071mil,2690mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.5mil|Location2.X=3159.743mil|Location1.Y=2607.5mil|Location2.Y=2696.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3103.5mil|Location2.X=3159.743mil|Location1.Y=2607.5mil|Location2.Y=2696.364mil|Absolute=True">Net Antennae: Via (3127mil,2631mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID4YSR2CO1II25NJLFG5QTFCJ5YHXH1FNWSHNVRYESOVVEZFVBORXN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=4115.453mil|Location2.Y=4124.327mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=4115.453mil|Location2.Y=4124.327mil|Absolute=True">Board Outline Clearance(Cutout Edge): (Collision &lt; 11.811mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3350.142mil,4119.89mil)(3617.858mil,4119.89mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=4351.673mil|Location2.Y=4360.547mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=4351.673mil|Location2.Y=4360.547mil|Absolute=True">Board Outline Clearance(Cutout Edge): (Collision &lt; 11.811mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3350.142mil,4356.11mil)(3617.858mil,4356.11mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=3805.106mil|Location2.Y=3813.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=3805.106mil|Location2.Y=3813.98mil|Absolute=True">Board Outline Clearance(Cutout Edge): (Collision &lt; 11.811mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3421.008mil,3809.543mil)(3546.992mil,3809.543mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=3998.02mil|Location2.Y=4006.894mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3480.548mil|Location2.X=3489.422mil|Location1.Y=3998.02mil|Location2.Y=4006.894mil|Absolute=True">Board Outline Clearance(Cutout Edge): (Collision &lt; 11.811mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3421.008mil,4002.457mil)(3546.992mil,4002.457mil) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

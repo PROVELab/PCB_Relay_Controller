@@ -1,0 +1,10 @@
+Change Component Designator: OldDesignator=LED1_+ NewDesignator=LED_+
+Change Component Designator: OldDesignator=LED1_- NewDesignator=LED_-
+Change Component Designator: OldDesignator=LED1_HB NewDesignator=LED_HB
+Change Component Designator: OldDesignator=LED1_PC NewDesignator=LED_PC
+Change Component Designator: OldDesignator=LED1_SLR NewDesignator=LED_SLR
+Change Net Name : Old Net Name=NetLED1_+_1 New Net Name=NetLED_+_1
+Change Net Name : Old Net Name=NetLED1_-_1 New Net Name=NetLED_-_1
+Change Net Name : Old Net Name=NetLED1_HB_1 New Net Name=NetLED_HB_1
+Change Net Name : Old Net Name=NetLED1_PC_1 New Net Name=NetLED_PC_1
+Change Net Name : Old Net Name=NetLED1_SLR_1 New Net Name=NetLED_SLR_1

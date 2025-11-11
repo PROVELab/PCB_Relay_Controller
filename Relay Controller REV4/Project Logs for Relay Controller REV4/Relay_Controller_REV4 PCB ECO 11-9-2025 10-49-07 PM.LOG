@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=LED2 NewDesignator=24V
+Change Component Designator: OldDesignator=LED3 NewDesignator=3.3V
+Change Net Name : Old Net Name=NetLED3_1 New Net Name=Net3.3V_1

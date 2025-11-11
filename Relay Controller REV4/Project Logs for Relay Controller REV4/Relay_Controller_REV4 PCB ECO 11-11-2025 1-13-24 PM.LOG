@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=SW Pin=D5-1
+Change Footprint: Footprint Not Found STPS10L40CSF
+Change Component Comment : Designator=D5 Old Comment=B560C-13-F New Comment=STPS5S100SFY
+Change component parameters: Designator = "D5" ("D5"); Footprint = "DIOM7959X250N"; UniqueID = "\ISKKVVVX\GGFMUFMG" ("\ISKKVVVX\GGFMUFMG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/stps5s100sfy.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STPS5S100SFY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "511-STPS5S100SFY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS5S100SFY?qs=IS%252B4QmGtzzqXirfVtJ7lSA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D5-1
+Add Pin To Net: Unknown Pin: Pin D5-3
