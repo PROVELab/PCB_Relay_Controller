@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\blew2\Documents\GitHub\PROVE\Relay Controller REV4\Relay_Controller_REV4.PcbDoc
 Date     : 11/11/2025
-Time     : 2:14:17 PM
+Time     : 2:52:23 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Bottom Layer')),(All)
 Rule Violations :0
@@ -10,11 +10,11 @@ Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3013mil,2631mil) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3013mil,2752.321mil) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3071mil,2690mil) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3127mil,2631mil) from Top Layer to Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3127mil,2752.321mil) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (3.23mil < 7.874mil) Between Pad C38-1(2671mil,1737.882mil) on Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3012mil,2743mil) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad D5-3(3070.945mil,2687.803mil) on Top Layer And Via (3070mil,2743mil) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (7.067mil < 7.874mil) Between Hole of Pad F3-1(5717mil,1708mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (7.067mil < 7.874mil) Between Hole of Pad F3-2(4617mil,1708mil) on Multi-Layer And Region (0 hole(s)) Bottom Layer 
    Violation between Clearance Constraint: (Collision < 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2813mil,1802mil) from Top Layer to Bottom Layer 
    Violation between Clearance Constraint: (Collision < 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2813mil,1867mil) from Top Layer to Bottom Layer 
    Violation between Clearance Constraint: (Collision < 5mil) Between Pad IC5-17(2837.795mil,1834.669mil) on Top Layer And Via (2839mil,1834mil) from Top Layer to Bottom Layer 
@@ -25,24 +25,38 @@ Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
    Violation between Clearance Constraint: (Collision < 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3366mil,2481.228mil) from Top Layer to Bottom Layer 
    Violation between Clearance Constraint: (Collision < 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3407.339mil,2453.669mil) from Top Layer to Bottom Layer 
    Violation between Clearance Constraint: (Collision < 5mil) Between Pad IC6-9(3366mil,2481.228mil) on Top Layer And Via (3407.339mil,2507.803mil) from Top Layer to Bottom Layer 
-Rule Violations :15
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J10-1(1993.047mil,1247mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J10-2(2148.953mil,1247mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J1-1(2794.094mil,1247mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J12-1(1245.425mil,1867mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J3-2(4970.905mil,1247mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J7-1(3410mil,1247mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J7-1(3410mil,1247mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.65mil < 7.874mil) Between Hole of Pad J7-2(3565.906mil,1247mil) on Multi-Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (3.23mil < 7.874mil) Between Pad R31-1(2673.362mil,1672.055mil) on Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (1.116mil < 7.874mil) Between Region (0 hole(s)) Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (1.696mil < 7.874mil) Between Region (0 hole(s)) Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (2.587mil < 7.874mil) Between Region (0 hole(s)) Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (3.374mil < 7.874mil) Between Region (0 hole(s)) Top Layer And Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (6.599mil < 7.874mil) Between Region (0 hole(s)) Top Layer And Region (0 hole(s)) Top Layer 
+Rule Violations :29
 
 Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-3(1677mil,4848mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-13(1927mil,4848mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-12(1877mil,4898mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-2(1627mil,4898mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-5(1727mil,4848mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-4(1677mil,4898mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-6(1727mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer 
-   Violation between Clearance Constraint: (10.63mil < 19.685mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-3(1677mil,4848mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-13(1927mil,4848mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-12(1877mil,4898mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-2(1627mil,4898mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-5(1727mil,4848mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-4(1677mil,4898mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-6(1727mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer 
+   Violation between Clearance Constraint: (8.661mil < 19.685mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer 
 Rule Violations :15
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -73,25 +87,25 @@ Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=3.937mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-2(1627mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-3(1677mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-13(1927mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-12(1877mil,4898mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-13(1927mil,4848mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-2(1627mil,4898mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-5(1727mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-4(1677mil,4898mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-7(1777mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-6(1727mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.63mil < 3.937mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [2.63mil] / [Bottom Solder] Mask Sliver [2.63mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-2(1627mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-1(1627mil,4848mil) on Multi-Layer And Pad J9-3(1677mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-10(1827mil,4898mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-12(1877mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-13(1927mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-11(1877mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-12(1877mil,4898mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-13(1927mil,4848mil) on Multi-Layer And Pad J9-14(1927mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-2(1627mil,4898mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-4(1677mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-3(1677mil,4848mil) on Multi-Layer And Pad J9-5(1727mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-4(1677mil,4898mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-6(1727mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-5(1727mil,4848mil) on Multi-Layer And Pad J9-7(1777mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-6(1727mil,4898mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-8(1777mil,4898mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 3.937mil) Between Pad J9-7(1777mil,4848mil) on Multi-Layer And Pad J9-9(1827mil,4848mil) on Multi-Layer [Top Solder] Mask Sliver [0.661mil] / [Bottom Solder] Mask Sliver [0.661mil]
 Rule Violations :19
 
 Processing Rule : Silk To Solder Mask (Clearance=3.937mil) (IsPad),(All)
@@ -142,11 +156,7 @@ Processing Rule : Silk to Silk (Clearance=3.937mil) (All),(All)
 Rule Violations :16
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Via (3013mil,2631mil) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (3013mil,2752.321mil) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (3071mil,2690mil) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (3127mil,2631mil) from Top Layer to Bottom Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
    Violation between Board Outline Clearance(Cutout Edge): (Collision < 11.811mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3350.142mil,4119.89mil)(3617.858mil,4119.89mil) on Top Overlay 
@@ -159,6 +169,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 98
+Violations Detected : 108
 Waived Violations : 0
 Time Elapsed        : 00:00:01

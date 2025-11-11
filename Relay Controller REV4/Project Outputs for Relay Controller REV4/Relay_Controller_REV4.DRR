@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Relay_Controller_REV4.PcbDoc   11/11/2025  2:28:02 PM
+NCDrill File Report For: Relay_Controller_REV4.PcbDoc   11/11/2025  3:01:04 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -9,8 +9,8 @@ ASCII Plated SlotHoles File : Relay_Controller_REV4-SlotHoles-Plated.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             142       PTH        41.36inch (1050.44mm)
-T2      20mil (0.508mm)                                           Round             5         PTH        0.24inch (6.03mm)
+T1      12mil (0.3mm)                                             Round             144       PTH        42.56inch (1080.90mm)
+T2      20mil (0.508mm)                                           Round             2         PTH        0.06inch (1.47mm)
 T3      29mil (0.74mm)                                            Round             14        PTH        0.65inch (16.51mm)
 T4      33mil (0.838mm)                                           Round             6         PTH        6.79inch (172.50mm)
 T5      35mil (0.9mm)                                             Slot              20        PTH        11.68inch (296.78mm)
@@ -20,6 +20,6 @@ T8      70mil (1.78mm)                                            Round         
 T9      73mil (1.86mm)                                            Round             9         NPTH       13.59inch (345.06mm)
 T10     132mil (3.35mm)                                           Round             4         NPTH       13.70inch (347.93mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              228
+Totals                                                                              227
 
 Total Processing Time (hh:mm:ss) : 00:00:00
