@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=GND Pin=J1-2
+Removed Pin From Net: NetName=GND Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=3.3V Pin=J2-3
+Removed Pin From Net: NetName=SL_Ready Pin=J4-2
+Removed Pin From Net: NetName=SL_Ready Pin=J6-2
+Removed Pin From Net: NetName=3.3V Pin=J9-3
+Removed Pin From Net: NetName=GND Pin=J9-5
+Removed Pin From Net: NetName=GND Pin=J9-7
+Removed Pin From Net: NetName=GND Pin=J9-11
+Removed Member From Class: ClassName=Connectors Member=J1
+Removed Member From Class: ClassName=Connectors Member=J2
+Removed Member From Class: ClassName=Connectors Member=J4
+Removed Member From Class: ClassName=Connectors Member=J6
+Removed Member From Class: ClassName=Connectors Member=J9
+Removed Member From Class: ClassName=Connectors Member=J10

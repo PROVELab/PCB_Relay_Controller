@@ -1,0 +1,98 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\blew2\Documents\GitHub\PROVE_Relay_Controller\Relay Controller REV2\Relay_Controller_REV2.PcbDoc
+Date     : 4/27/2025
+Time     : 5:47:30 PM
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Bottom Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.203mm) (OnLayer('Top Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad IC2-9(52.578mm,100.203mm) on Top Layer And Via (51.587mm,100.889mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad IC2-9(52.578mm,100.203mm) on Top Layer And Via (51.587mm,99.517mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad IC2-9(52.578mm,100.203mm) on Top Layer And Via (52.578mm,100.203mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad IC2-9(52.578mm,100.203mm) on Top Layer And Via (53.569mm,100.889mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad IC2-9(52.578mm,100.203mm) on Top Layer And Via (53.569mm,99.517mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (0.044mm < 0.089mm) Between Track (66.728mm,81.601mm)(66.896mm,81.77mm) on Top Layer And Track (67mm,81.416mm)(67.328mm,81.744mm) on Top Layer 
+Rule Violations :6
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.13mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.085mm < 0.1mm) Between Pad LED2-2(97.864mm,51.308mm) on Top Layer And Via (96.52mm,50.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.085mm]
+Rule Violations :1
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.039mm < 0.1mm) Between Pad R19-1(85.701mm,76.454mm) on Top Layer And Track (72.39mm,75.438mm)(97.536mm,75.438mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.039mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.039mm < 0.1mm) Between Pad R19-2(82.701mm,76.454mm) on Top Layer And Track (72.39mm,75.438mm)(97.536mm,75.438mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.039mm]
+Rule Violations :2
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "D1" (65.786mm,43.747mm) on Top Overlay And Track (39.497mm,44.45mm)(68.961mm,44.45mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "D2" (81.915mm,43.747mm) on Top Overlay And Track (80.62mm,43.967mm)(100.305mm,43.967mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "D2" (81.915mm,43.747mm) on Top Overlay And Track (82.883mm,44.651mm)(82.883mm,47.551mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "D2" (81.915mm,43.747mm) on Top Overlay And Track (82.883mm,44.651mm)(83.183mm,44.651mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "D2" (81.915mm,43.747mm) on Top Overlay And Track (83.183mm,44.651mm)(83.183mm,47.551mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "D3" (97.663mm,43.747mm) on Top Overlay And Track (80.62mm,43.967mm)(100.305mm,43.967mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.026mm < 0.1mm) Between Text "R22" (67.514mm,72.924mm) on Top Overlay And Track (61.468mm,72.644mm)(69.596mm,72.644mm) on Top Overlay Silk Text to Silk Clearance [0.026mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "R22" (67.514mm,72.924mm) on Top Overlay And Track (69.596mm,72.644mm)(72.39mm,75.438mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "Thermal Vias" (57.11mm,102.387mm) on Bottom Overlay And Track (50.165mm,102.133mm)(54.991mm,102.133mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.027mm < 0.1mm) Between Text "Thermal Vias" (57.11mm,102.387mm) on Bottom Overlay And Track (50.165mm,98.349mm)(50.165mm,102.133mm) on Bottom Overlay Silk Text to Silk Clearance [0.027mm]
+   Violation between Silk To Silk Clearance Constraint: (0.027mm < 0.1mm) Between Text "Thermal Vias" (57.11mm,102.387mm) on Bottom Overlay And Track (54.991mm,98.349mm)(54.991mm,102.133mm) on Bottom Overlay Silk Text to Silk Clearance [0.027mm]
+Rule Violations :11
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.3mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (61.468mm,88.9mm)(79.248mm,88.9mm) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.3mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (72.39mm,75.438mm)(97.536mm,75.438mm) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.3mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (74.042mm,76.3mm)(77.342mm,76.3mm) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.3mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (74.042mm,81.18mm)(77.342mm,81.18mm) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.3mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (74.042mm,83.285mm)(77.342mm,83.285mm) on Top Overlay 
+   Violation between Board Outline Clearance(Cutout Edge): (Collision < 0.3mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (74.042mm,88.165mm)(77.342mm,88.165mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.3mm) Between Board Edge And Text "K1" (106.68mm,25.019mm) on Top Overlay 
+Rule Violations :7
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+   Violation between Height Constraint: Component R1-TWW20J100E (136.271mm,47.879mm) on Top Layer Actual Height = 46.1mm
+   Violation between Height Constraint: Component R2-TWW20J100E (143.771mm,68.687mm) on Top Layer Actual Height = 46.1mm
+   Violation between Height Constraint: Component R3-TWW20J100E (136.271mm,83.586mm) on Top Layer Actual Height = 46.1mm
+   Violation between Height Constraint: Component R4-TWW20J100E (143.771mm,104.394mm) on Top Layer Actual Height = 46.1mm
+   Violation between Height Constraint: Component R5-TWW20J100E (118.872mm,104.394mm) on Top Layer Actual Height = 46.1mm
+Rule Violations :5
+
+
+Violations Detected : 32
+Waived Violations : 0
+Time Elapsed        : 00:00:01

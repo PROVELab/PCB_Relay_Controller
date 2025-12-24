@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=3.3V Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=3.3V Pin=C29-1
+Removed Pin From Net: NetName=GND Pin=C29-2
+Removed Pin From Net: NetName=3.3V Pin=C30-1
+Removed Pin From Net: NetName=GND Pin=C30-2
+Removed Pin From Net: NetName=3.3V Pin=IC2-1
+Removed Pin From Net: NetName=GND Pin=IC2-4
+Removed Pin From Net: NetName=GND Pin=IC7-1
+Removed Pin From Net: NetName=3.3V Pin=IC7-2
+Removed Pin From Net: NetName=3.3V Pin=IC7-3
+Removed Pin From Net: NetName=GND Pin=IC7-4
+Removed Pin From Net: NetName=Precharge Relay GND Pin=K1-4
+Removed Pin From Net: NetName=3.3V Pin=R28-1
+Removed Pin From Net: NetName=3.3V Pin=R29-1
+Removed Pin From Net: NetName=SCL Pin=R29-2
+Removed Member From Class: ClassName=Connectors Member=J3
+Removed Member From Class: ClassName=Connectors Member=J5
+Removed Member From Class: ClassName=Connectors Member=J8
+Removed Member From Class: ClassName=Relay Controller Member=K1
+Removed Member From Class: ClassName=Relay Controller Member=R9
+Removed Member From Class: ClassName=Relay Controller Member=R10
+Removed Member From Class: ClassName=Relay Controller Member=R11
+Removed Member From Class: ClassName=Relay Controller Member=R12
+Removed Member From Class: ClassName=Relay Controller Member=R13

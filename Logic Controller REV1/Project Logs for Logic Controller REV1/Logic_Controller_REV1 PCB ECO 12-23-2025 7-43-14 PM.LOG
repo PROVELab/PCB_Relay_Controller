@@ -1,0 +1,375 @@
+Removed Pin From Net: NetName=24V Pin=24V-2
+Removed Member From Class: ClassName=eFuse Member=24V
+Change Component Footprint: Designator=LED_- Old Footprint=156120VS75000 New Footprint=LEDC1608X70N
+Change Component Footprint: Designator=LED_+ Old Footprint=156120VS75000 New Footprint=LEDC1608X70N
+Change Component Footprint: Designator=LED_HB Old Footprint=156120VS75000 New Footprint=LEDC1608X70N
+Change Component Footprint: Designator=LED_PC Old Footprint=156120VS75000 New Footprint=LEDC1608X70N
+Change Component Footprint: Designator=LED_SLR Old Footprint=156120VS75000 New Footprint=LEDC1608X70N
+Change Component Footprint: Designator=C35 Old Footprint=C1206 New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=C33 Old Footprint=CAPC3216X75N New Footprint=CAPC1608X95N
+Change Component Footprint: Designator=C24 Old Footprint=CAPC3216X94N New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=C34 Old Footprint=CAPC3216X94N New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=C37 Old Footprint=CAPC3216X152N New Footprint=CAPC1608X80N
+Change Component Footprint: Designator=C36 Old Footprint=CAPC3216X170N New Footprint=CAPC1608X87N
+Change Component Footprint: Designator=C38 Old Footprint=CAPC3216X178N New Footprint=CAPC1608X95N
+Change Component Footprint: Designator=C17 Old Footprint=CAPC3216X180N New Footprint=CAPC1608X95N
+Change Component Footprint: Designator=C1 Old Footprint=CAPC3216X180N New Footprint=CAPC2012X145N
+Change Component Footprint: Designator=C25 Old Footprint=CAPC3216X180N New Footprint=CAPC2012X145N
+Change Component Footprint: Designator=C26 Old Footprint=CAPC3216X180N New Footprint=CAPC2012X145N
+Change Component Footprint: Designator=C20 Old Footprint=CAPC3216X180N New Footprint=MBASx168
+Change Component Footprint: Designator=C21 Old Footprint=CAPC3216X180N New Footprint=MBASx168
+Change Component Footprint: Designator=R2 Old Footprint=ERJ8ENF1000V New Footprint=RESC1608X50N
+Change Component Footprint: Designator=R3 Old Footprint=ERJ8ENF1000V New Footprint=RESC1608X50N
+Change Component Footprint: Designator=R16 Old Footprint=ERJUP6 New Footprint=RESC1608X50N
+Change Component Footprint: Designator=R4 Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R15 Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R37 Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R19 Old Footprint=RESC3216X65N New Footprint=RESC1608X50N
+Change Component Footprint: Designator=R20 Old Footprint=RESC3216X65N New Footprint=RESC1608X50N
+Change Component Footprint: Designator=R1 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R21 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R35 Old Footprint=RESC3216X70N New Footprint=ERJH3
+Change Component Footprint: Designator=R33 Old Footprint=RESC3216X70N New Footprint=ERJS03J155V
+Change Component Footprint: Designator=R17 Old Footprint=RESC3216X70N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R31 Old Footprint=RESC3216X70N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R32 Old Footprint=RESC3216X70N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R34 Old Footprint=RESC3216X70N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=PC FAIL Old Footprint=WL-SMRW_1206 rectangular_normal use New Footprint=LEDC1608X70N
+Change Component Comment : Designator=LED_- Old Comment=156120VS75000 New Comment=150060GS75000
+Change Component Comment : Designator=LED_+ Old Comment=156120VS75000 New Comment=150060GS75000
+Change Component Comment : Designator=LED_HB Old Comment=156120VS75000 New Comment=150060GS75000
+Change Component Comment : Designator=LED_PC Old Comment=156120VS75000 New Comment=150060GS75000
+Change Component Comment : Designator=LED_SLR Old Comment=156120VS75000 New Comment=150060GS75000
+Change component parameters: Designator = "LED_-" ("LED"); Footprint = "156120VS75000"; UniqueID = "\CMPXRRTA\SMKFDMDT\OGZFTXFR" ("\CMPXRRTA\SMKFDMDT\OGZFTXFR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_+" ("LED"); Footprint = "156120VS75000"; UniqueID = "\CMPXRRTA\JCGVSYAP\OGZFTXFR" ("\CMPXRRTA\JCGVSYAP\OGZFTXFR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_HB" ("LED"); Footprint = "156120VS75000"; UniqueID = "\CMPXRRTA\HXOEIYFF\OGZFTXFR" ("\CMPXRRTA\HXOEIYFF\OGZFTXFR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_PC" ("LED"); Footprint = "156120VS75000"; UniqueID = "\CMPXRRTA\YYJLGWXK\OGZFTXFR" ("\CMPXRRTA\YYJLGWXK\OGZFTXFR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_SLR" ("LED"); Footprint = "156120VS75000"; UniqueID = "\CMPXRRTA\YOESVLOA\OGZFTXFR" ("\CMPXRRTA\YOESVLOA\OGZFTXFR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060GS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33" ("R33"); Footprint = "RESC3216X70N"; UniqueID = "\LBOAXXZQ\PFARSNSC" ("\LBOAXXZQ\PFARSNSC")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-U03F2102V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C33" ("C33"); Footprint = "CAPC3216X75N"; UniqueID = "\KMELCRGB\XDLVTMDD" ("\KMELCRGB\XDLVTMDD")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Walsin Technology Corporation"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "0603B472M500CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C35" ("C35"); Footprint = "C1206"; UniqueID = "\ISKKVVVX\KNYQXGYQ" ("\ISKKVVVX\KNYQXGYQ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "06035A180JAT4A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "581-06035A180JAT4A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/AVX/06035A180JAT4A?qs=GMfvKSOiCGHkuDR8fcucAQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C36" ("C36"); Footprint = "CAPC3216X170N"; UniqueID = "\ISKKVVVX\HPZPYFMZ" ("\ISKKVVVX\HPZPYFMZ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.kemet.com/specsheet/C0603C223K5RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.87mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "C0603C223K5RAC-TU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17" ("C17"); Footprint = "CAPC3216X180N"; UniqueID = "\XZFAPLUA\WMXNLMAZ" ("\XZFAPLUA\WMXNLMAZ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "UMK107AB7105KA-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/umk107ab7105ka-t/taiyo-yuden?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=UMK107AB7105KA-T&u=M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UMK107AB7105KA-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "963-UMK107AB7105KA-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/UMK107AB7105KA-T?qs=%252BAZVS4b%2FkgKLk%2FvFAZMoRQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C24" ("C24"); Footprint = "CAPC3216X94N"; UniqueID = "\ISKKVVVX\NSCEHQAZ" ("\ISKKVVVX\NSCEHQAZ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/06035c104j4z2a/avx"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "581-06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C104J4Z2A?qs=Awwwc1gvTnlncvTGCFZvkw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C34" ("C34"); Footprint = "CAPC3216X94N"; UniqueID = "\KMELCRGB\LHOWJCND" ("\KMELCRGB\LHOWJCND")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/06035c104j4z2a/avx"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "581-06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C104J4Z2A?qs=Awwwc1gvTnlncvTGCFZvkw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17" ("R17"); Footprint = "RESC3216X70N"; UniqueID = "\ISKKVVVX\ADNEZIPM" ("\ISKKVVVX\ADNEZIPM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "ERJ-3EKF3833V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/erj-3ekf3833v/panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-3EKF3833V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-ERJ-3EKF3833V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-3EKF3833V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R31" ("R31"); Footprint = "RESC3216X70N"; UniqueID = "\LBOAXXZQ\BWWRNFZR" ("\LBOAXXZQ\BWWRNFZR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-3RED7153V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-ERJ-3RED7153V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3RED7153V?qs=KTDjhDDUMAkeRZjDK2%2FIGQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R32" ("R32"); Footprint = "RESC3216X70N"; UniqueID = "\LBOAXXZQ\MEUWUKGE" ("\LBOAXXZQ\MEUWUKGE")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "ERJ-3EKF6041V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/erj-3ekf6041v/panasonic?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-3EKF6041V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-ERJ-3EKF6041V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF6041V?qs=iBwFsHVUAOeUhyGwvVJXlA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34" ("R34"); Footprint = "RESC3216X70N"; UniqueID = "\LBOAXXZQ\KNSBUOGD" ("\LBOAXXZQ\KNSBUOGD")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "ERJ-3RBD2002V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/erj-3rbd2002v/panasonic?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-3RBD2002V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-ERJ-3RBD2002V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3RBD2002V?qs=18kBAoNi3c86dkVPS7b86Q%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R35" ("R35"); Footprint = "RESC3216X70N"; UniqueID = "\LBOAXXZQ\VYDUYVRP" ("\LBOAXXZQ\VYDUYVRP")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-H3EF3012V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1" ("C1"); Footprint = "CAPC3216X180N"; UniqueID = "\XZFAPLUA\QBYDKZWK" ("\XZFAPLUA\QBYDKZWK")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "GRM21BR61H475ME51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/grm21br61h475me51l/murata-manufacturing?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H475ME51-01A.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "GRM21BR61H475ME51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "81-GRM21BR61H475M51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BR61H475ME51L?qs=eeBpzGFlv%252B%2Fg0wAeHy0eJw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "CAPC3216X180N"; UniqueID = "\XZFAPLUA\VDHIQAOY" ("\XZFAPLUA\VDHIQAOY")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MBASL168SB5225KTNA01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MBASL168SB5225KTNA01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21" ("C21"); Footprint = "CAPC3216X180N"; UniqueID = "\XZFAPLUA\MSTAUVKP" ("\XZFAPLUA\MSTAUVKP")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MBASL168SB5225KTNA01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MBASL168SB5225KTNA01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C25" ("C25"); Footprint = "CAPC3216X180N"; UniqueID = "\ISKKVVVX\EGDMJCOH" ("\ISKKVVVX\EGDMJCOH")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "GRM21BR61H475ME51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/grm21br61h475me51l/murata-manufacturing?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H475ME51-01A.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "GRM21BR61H475ME51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "81-GRM21BR61H475M51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BR61H475ME51L?qs=eeBpzGFlv%252B%2Fg0wAeHy0eJw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C26" ("C26"); Footprint = "CAPC3216X180N"; UniqueID = "\ISKKVVVX\MWPXWPFU" ("\ISKKVVVX\MWPXWPFU")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "GRM21BR61H475ME51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/grm21br61h475me51l/murata-manufacturing?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H475ME51-01A.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "GRM21BR61H475ME51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "81-GRM21BR61H475M51L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BR61H475ME51L?qs=eeBpzGFlv%252B%2Fg0wAeHy0eJw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C37" ("C37"); Footprint = "CAPC3216X152N"; UniqueID = "\LBOAXXZQ\YZPOYFYM" ("\LBOAXXZQ\YZPOYFYM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/components/products/download/1.6x0.8x0.8x0+%28rev1%29.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "885012106020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-885012106020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/885012106020?qs=0KOYDY2FL28wkv7Maiii5A%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C38" ("C38"); Footprint = "CAPC3216X178N"; UniqueID = "\LBOAXXZQ\JPMCRICV" ("\LBOAXXZQ\JPMCRICV")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "UMK107AB7105KA-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/umk107ab7105ka-t/taiyo-yuden?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=UMK107AB7105KA-T&u=M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UMK107AB7105KA-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "963-UMK107AB7105KA-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/UMK107AB7105KA-T?qs=%252BAZVS4b%2FkgKLk%2FvFAZMoRQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "RESC3216X65N"; UniqueID = "\XZFAPLUA\NFJTKPDO" ("\XZFAPLUA\NFJTKPDO")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRGCQ0603F10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crgcq0603f10k/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773204-3%7F1%7Fpdf%7FEnglish%7FENG_DS_1773204-3_1.pdf%7F5-2176339-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRGCQ0603F10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "279-CRGCQ0603F10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ0603F10K?qs=wUXugUrL1qxhM765MzQWJg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "ERJ8ENF1000V"; UniqueID = "\XZFAPLUA\JJHVUZVC" ("\XZFAPLUA\JJHVUZVC")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRCW060333R0JNEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crcw060333r0jnec/vishay?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW060333R0JNEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-CRCW060333R0JNEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060333R0JNEC?qs=ZO1m%252BzWAUg2kwAG1IfiiMA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "ERJ8ENF1000V"; UniqueID = "\XZFAPLUA\KHFDKMMF" ("\XZFAPLUA\KHFDKMMF")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRCW060333R0JNEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crcw060333r0jnec/vishay?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW060333R0JNEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-CRCW060333R0JNEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060333R0JNEC?qs=ZO1m%252BzWAUg2kwAG1IfiiMA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC3116X65N"; UniqueID = "\XZFAPLUA\SKZQOZFZ" ("\XZFAPLUA\SKZQOZFZ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R15" ("R15"); Footprint = "RESC3116X65N"; UniqueID = "\ISKKVVVX\OTVNZQKH" ("\ISKKVVVX\OTVNZQKH")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "ERJ-3EKF3652V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/erj-3ekf3652v/panasonic?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-3EKF3652V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-ERJ-3EKF3652V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF3652V?qs=MVjVSMjNRMrgC1BnfDObyw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16" ("R16"); Footprint = "ERJUP6"; UniqueID = "\ISKKVVVX\PXYRBPPG" ("\ISKKVVVX\PXYRBPPG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRCW060312K4FKEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crcw060312k4fkea/vishay?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW060312K4FKEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-CRCW0603-12.4K-E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060312K4FKEA?qs=8tsW7z%2Fc78of4VB3wUPkkg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "RESC3216X65N"; UniqueID = "\KMELCRGB\SBAWXQJD" ("\KMELCRGB\SBAWXQJD")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRCW060360R4FKEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crcw060360r4fkea/vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW060360R4FKEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-CRCW0603-60.4-E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060360R4FKEA?qs=6fyMJ9%2FiJ9KMVX8MBWVfDg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20" ("R20"); Footprint = "RESC3216X65N"; UniqueID = "\KMELCRGB\TKCFIZTR" ("\KMELCRGB\TKCFIZTR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRCW060360R4FKEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crcw060360r4fkea/vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW060360R4FKEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-CRCW0603-60.4-E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060360R4FKEA?qs=6fyMJ9%2FiJ9KMVX8MBWVfDg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21" ("R21"); Footprint = "RESC3216X65N"; UniqueID = "\KMELCRGB\QOMXHPRA" ("\KMELCRGB\QOMXHPRA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRGCQ0603F10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crgcq0603f10k/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773204-3%7F1%7Fpdf%7FEnglish%7FENG_DS_1773204-3_1.pdf%7F5-2176339-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRGCQ0603F10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "279-CRGCQ0603F10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ0603F10K?qs=wUXugUrL1qxhM765MzQWJg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R37" ("R37"); Footprint = "RESC3116X65N"; UniqueID = "\LBOAXXZQ\YXYDGNXX" ("\LBOAXXZQ\YXYDGNXX")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "PC FAIL" ("PC FAIL"); Footprint = "WL-SMRW_1206 rectangular_normal use"; UniqueID = "\CMPXRRTA\IYDUDKAX\KHTCENFZ" ("\CMPXRRTA\IYDUDKAX\KHTCENFZ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060RS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060RS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060RS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(LEDC1608X70N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "710-150060GS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=24V Pin=LED1-2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R37-1
+Added Net: Name=NetLED1_1
+Added Member To Class: ClassName=STM32 Member=Component C3 100n
+Added Member To Class: ClassName=STM32 Member=Component C17 1u
+Added Member To Class: ClassName=STM32 Member=Component C19 100n
+Added Member To Class: ClassName=STM32 Member=Component C20 2.2u
+Added Member To Class: ClassName=STM32 Member=Component C21 2.2u
+Added Member To Class: ClassName=eFuse Member=Component LED1 150060GS75000

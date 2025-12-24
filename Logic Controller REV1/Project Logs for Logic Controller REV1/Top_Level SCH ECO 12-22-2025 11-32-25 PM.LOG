@@ -1,0 +1,26 @@
+Remove Pin=C1-2 From Net=HV-
+Remove Pin=F2-2 From Net=HV+ MC
+Remove Pin=F3-2 From Net=HV+ Battery
+Remove Pin=IC1-1 From Net=HV+ MC Divided
+Remove Pin=IC1-2 From Net=HV-
+Remove Pin=IC1-3 From Net=3.3V (High Side)
+Remove Pin=IC1-4 From Net=SDA (High Side)
+Remove Pin=IC1-5 From Net=SCL (High Side)
+Remove Pin=IC1-6 From Net=HV-
+Remove Pin=IC1-7 From Net=HV+ BAT Divided
+Remove Pin=IC1-8 From Net=HV-
+Remove Pin=IC2-2 From Net=SDA
+Remove Pin=IC2-3 From Net=SCL
+Remove Pin=IC2-5 From Net=HV-
+Remove Pin=IC2-6 From Net=SCL (High Side)
+Remove Pin=IC2-7 From Net=SDA (High Side)
+Remove Pin=IC7-7 From Net=3.3V (High Side)
+Remove Pin=IC7-8 From Net=HV-
+Remove Pin=K1-3 From Net=SL_Ready
+Remove Pin=R1-2 From Net=HV+ MC
+Remove Pin=R2-2 From Net=HV+ Battery
+Remove Pin=R24-2 From Net=HV-
+Remove Pin=R25-2 From Net=HV-
+Remove Pin=R26-2 From Net=SDA (High Side)
+Remove Pin=R27-2 From Net=SCL (High Side)
+Remove Pin=R28-2 From Net=SDA
