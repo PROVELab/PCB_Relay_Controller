@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=CAN_L Pin=J10-1
+Added Pin To Net: NetName=CAN_H Pin=J10-2
+Added Class: Name=CAN_H
+Added Class: Name=CAN_L
+Add Differential Pair: Number of nets in differential pair CAN_H is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair CAN_L is 1 instead of 2

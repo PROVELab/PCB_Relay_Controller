@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=CANC_H New Net Name=CANC_P
+Change Net Name : Old Net Name=CANC_L New Net Name=CANC_N
+Added Differential Pair: Name=CANC
+Added Class: Name=diffc1
+Added Member To Class: ClassName=diffc Member=CANC

@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=3.3V Pin=3.3V-2
+Removed Pin From Net: NetName=SL_Ready Pin=D1-1
+Removed Pin From Net: NetName=SL_Ready Pin=D2-1
+Removed Pin From Net: NetName=SL_Ready Pin=D3-1
+Removed Pin From Net: NetName=SL_Ready Pin=IC4_SLR-1
+Removed Member From Class: ClassName=24V to 3.3V Buck Member=3.3V
+Removed Member From Class: ClassName=LED_Driver Member=SLR
+Change Component Footprint: Designator=R38 Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R18 Old Footprint=RESC3216X70N New Footprint=CAPC1608X55N
+Change Component Comment : Designator=R18 Old Comment=RN73H2BTTD1172F100 New Comment=11.7k
+Change Component Designator: OldDesignator=IC4_SLR NewDesignator=IC4_RTD_Sig_In
+Change Component Designator: OldDesignator=LED_SLR NewDesignator=LED_RTD_Sig_In
+Change Component Designator: OldDesignator=R14_SLR NewDesignator=R14_RTD_Sig_In
+Change component parameters: Designator = "R18" ("R18"); Footprint = "RESC3216X70N"; UniqueID = "\ISKKVVVX\XLCCQZJN" ("\ISKKVVVX\XLCCQZJN")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/TNPW060311K7BEEA.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TNPW060311K7BEEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-TNPW060311K7BEEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW060311K7BEEA?qs=ixLl9tGHk8sqv6nzL7A%252BsQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R38" ("R38"); Footprint = "RESC3116X65N"; UniqueID = "\ISKKVVVX\UXUBZHTA" ("\ISKKVVVX\UXUBZHTA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=LED?(LEDC1608X70N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060GS75000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "710-150060GS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=LED?-2
+Change Net Name : Old Net Name=NetIC4_SLR_3 New Net Name=NetIC4_RTD_Sig_In_3
+Change Net Name : Old Net Name=NetLED_SLR_1 New Net Name=NetLED_RTD_Sig_In_1
+Added Pin To Net: NetName=NetLED?_1 Pin=LED?-1
+Added Pin To Net: NetName=NetLED?_1 Pin=R38-1
+Added Net: Name=NetLED?_1
+Added Pin To Net: NetName=RTD_Sig Pin=D1-1
+Added Pin To Net: NetName=RTD_Sig Pin=D2-1
+Added Pin To Net: NetName=RTD_Sig Pin=D3-1
+Added Pin To Net: NetName=RTD_Sig Pin=IC4_RTD_Sig_In-1
+Added Net: Name=RTD_Sig
+Change Class Name : Old Net Name=SLR New Net Name=RTD_Sig_In
+Added Member To Class: ClassName=24V to 3.3V Buck Member=Component LED? 150060GS75000
+Added Member To Class: ClassName=LED_Driver Member=RTD_Sig_In (LED_Driver.SchDoc)

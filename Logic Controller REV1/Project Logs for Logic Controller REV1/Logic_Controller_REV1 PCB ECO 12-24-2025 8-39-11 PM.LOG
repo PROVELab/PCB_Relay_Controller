@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=3.3V Pin=C28-1
+Removed Pin From Net: NetName=GND Pin=C28-2
+Change Component Footprint: Designator=R14_- Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_+ Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_HB Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_PC Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_RTD_Sig_In Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R5 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R30 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R42 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R43 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R44 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Comment : Designator=C27 Old Comment=CL31X107MQKNNWE New Comment=100u
+Change component parameters: Designator = "C27" ("C27"); Footprint = "CAPC3216X190N"; UniqueID = "\ISKKVVVX\YEBZUALY" ("\ISKKVVVX\YEBZUALY")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.digikey.sg/en/products/detail/samsung-electro-mechanics/CL31X107MQKNNWE/25854287?srsltid=AfmBOoqYZ52GRQ9Xlh8bi0lGOe-KtDJ1wz9-WyaigKcCVSEueXc8l4on"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "SAMSUNG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL31X107MQKNNWE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "187-CL31X107MQKNNWE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31X107MQKNNWE?qs=Jm2GQyTW%2FbjTv%252BH%2F%252BndEuA%3D%3D"; VariantName = "[No Variations]"

@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=R42 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R43 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R44 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change component parameters: Designator = "R42" ("R42"); Footprint = "RESC3216X65N"; UniqueID = "\CVIIGAHZ\BVMOAIGJ" ("\CVIIGAHZ\BVMOAIGJ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0603-jw-104elf/bourns?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-JW-104ELF?qs=wOX%252BDVkMoZSK2gq9cFrtRg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43" ("R43"); Footprint = "RESC3216X65N"; UniqueID = "\CVIIGAHZ\TLCRZRYL" ("\CVIIGAHZ\TLCRZRYL")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0603-jw-104elf/bourns?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-JW-104ELF?qs=wOX%252BDVkMoZSK2gq9cFrtRg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R44" ("R44"); Footprint = "RESC3216X65N"; UniqueID = "\CVIIGAHZ\KUJUGHKA" ("\CVIIGAHZ\KUJUGHKA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0603-jw-104elf/bourns?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-JW-104ELF?qs=wOX%252BDVkMoZSK2gq9cFrtRg%3D%3D"; VariantName = "[No Variations]"

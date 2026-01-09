@@ -1,0 +1,70 @@
+Change Component Footprint: Designator=R14_- Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_+ Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_HB Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_PC Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R14_RTD_Sig_In Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R5 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change Component Footprint: Designator=R30 Old Footprint=RESC3216X65N New Footprint=RESC1608X55N
+Change component parameters: Designator = "R5" ("R5"); Footprint = "RESC3216X65N"; UniqueID = "\XZFAPLUA\VHOPLEWN" ("\XZFAPLUA\VHOPLEWN")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0603-jw-104elf/bourns?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-JW-104ELF?qs=wOX%252BDVkMoZSK2gq9cFrtRg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_-" ("R14"); Footprint = "RESC3116X65N"; UniqueID = "\CMPXRRTA\SMKFDMDT\UIXWKJUG" ("\CMPXRRTA\SMKFDMDT\UIXWKJUG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_+" ("R14"); Footprint = "RESC3116X65N"; UniqueID = "\CMPXRRTA\JCGVSYAP\UIXWKJUG" ("\CMPXRRTA\JCGVSYAP\UIXWKJUG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_HB" ("R14"); Footprint = "RESC3116X65N"; UniqueID = "\CMPXRRTA\HXOEIYFF\UIXWKJUG" ("\CMPXRRTA\HXOEIYFF\UIXWKJUG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_PC" ("R14"); Footprint = "RESC3116X65N"; UniqueID = "\CMPXRRTA\YYJLGWXK\UIXWKJUG" ("\CMPXRRTA\YYJLGWXK\UIXWKJUG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_RTD_Sig_In" ("R14"); Footprint = "RESC3116X65N"; UniqueID = "\CMPXRRTA\YOESVLOA\UIXWKJUG" ("\CMPXRRTA\YOESVLOA\UIXWKJUG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30" ("R30"); Footprint = "RESC3216X65N"; UniqueID = "\LBOAXXZQ\ZCUGOAZJ" ("\LBOAXXZQ\ZCUGOAZJ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0603-jw-104elf/bourns?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0603-JW-104ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-JW-104ELF?qs=wOX%252BDVkMoZSK2gq9cFrtRg%3D%3D"; VariantName = "[No Variations]"

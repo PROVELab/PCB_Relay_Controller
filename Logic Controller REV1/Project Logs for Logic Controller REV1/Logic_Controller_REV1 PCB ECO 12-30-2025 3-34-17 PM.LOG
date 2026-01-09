@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=CAN L Pin=J10-1
+Removed Pin From Net: NetName=CAN H Pin=J10-2
+Change Net Name : Old Net Name=CAN H New Net Name=CAN_H
+Change Net Name : Old Net Name=CAN L New Net Name=CAN_L
+Change Net Name : Old Net Name=CANCH New Net Name=CANC_H
+Change Net Name : Old Net Name=CANCL New Net Name=CANC_L
+Added Pin To Net: NetName=NetJ10_1 Pin=J10-1
+Added Net: Name=NetJ10_1
+Added Pin To Net: NetName=NetJ10_2 Pin=J10-2
+Added Net: Name=NetJ10_2

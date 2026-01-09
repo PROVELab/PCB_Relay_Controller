@@ -1,0 +1,20 @@
+Change Component Designator: OldDesignator=C37 NewDesignator=C23
+Change Component Designator: OldDesignator=C38 NewDesignator=C22
+Change Component Designator: OldDesignator=IC5 NewDesignator=IC2
+Change Component Designator: OldDesignator=R30 NewDesignator=R6
+Change Component Designator: OldDesignator=R31 NewDesignator=R7
+Change Component Designator: OldDesignator=R32 NewDesignator=R9
+Change Component Designator: OldDesignator=R33 NewDesignator=R10
+Change Component Designator: OldDesignator=R34 NewDesignator=R11
+Change Component Designator: OldDesignator=R35 NewDesignator=R12
+Change Component Designator: OldDesignator=R37 NewDesignator=R8
+Added Component: Designator=D6(DIOM5026X229N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SMAJ26A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/smaj26a/littelfuse?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.29mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "LITTELFUSE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SMAJ26A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "576-SMAJ26A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ26A?qs=HR2RnyOI4E5UFOxZR4oQ3w%3D%3D"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=eFuse Member=Component D6 SMAJ26A

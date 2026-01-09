@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=D5-1
+Removed Pin From Net: NetName=SW Pin=D5-3
+Change Component Footprint: Designator=D5 Old Footprint=STPS10L40CSF New Footprint=DIOM7959X250N
+Change Component Comment : Designator=D5 Old Comment=STPS5S100SFY New Comment=B560C-13-F
+Change component parameters: Designator = "D5" ("D5"); Footprint = "STPS10L40CSF"; UniqueID = "\ISKKVVVX\KFTPDZSR" ("\ISKKVVVX\KFTPDZSR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "B560C-13-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/b560c-13-f/diodes-incorporated?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-B560C-13-F_C85100.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "B560C-13-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "621-B560C-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B560C-13-F?qs=OC0R%252Bhozcm%252BAsjMXklZLIw%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SW Pin=D5-1
+Added Rule: Name=Schematic Supply Nets

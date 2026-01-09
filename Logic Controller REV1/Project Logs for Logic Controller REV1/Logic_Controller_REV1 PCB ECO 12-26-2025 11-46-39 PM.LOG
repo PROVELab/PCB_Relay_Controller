@@ -1,0 +1,42 @@
+Change Component Footprint: Designator=C37 Old Footprint=CAPC1608X80N New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=R33 Old Footprint=ERJS03J155V New Footprint=RESC1608X55N
+Change Component Comment : Designator=C37 Old Comment=0.47u New Comment=100n
+Change Component Comment : Designator=R32 Old Comment=6.04k New Comment=5.36k
+Change Component Comment : Designator=R34 Old Comment=20k New Comment=20.5k
+Change Component Comment : Designator=R33 Old Comment=21k New Comment=18.7k
+Change component parameters: Designator = "R33" ("R33"); Footprint = "ERJS03J155V"; UniqueID = "\LBOAXXZQ\DNIRPNGN" ("\LBOAXXZQ\DNIRPNGN")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603FT18K7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34" ("R34"); Footprint = "RESC1608X55N"; UniqueID = "\LBOAXXZQ\GWDCNJVK" ("\LBOAXXZQ\GWDCNJVK")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "ERJ-3EKF2052V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/erj3ekf2052v/panasonic?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-3EKF2052V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R32" ("R32"); Footprint = "RESC1608X55N"; UniqueID = "\LBOAXXZQ\QCCJUPDH" ("\LBOAXXZQ\QCCJUPDH")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RK73H1JTTD5361F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "660-RK73H1JTTD5361F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "http://www.mouser.com/Search/ProductDetail.aspx?qs=VsVuNjgfZhozLTQBmeIWog%3d%3d"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C37" ("C37"); Footprint = "CAPC1608X80N"; UniqueID = "\LBOAXXZQ\WPECJWUN" ("\LBOAXXZQ\WPECJWUN")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/06035c104j4z2a/avx"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "581-06035C104J4Z2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C104J4Z2A?qs=Awwwc1gvTnlncvTGCFZvkw%3D%3D"; VariantName = "[No Variations]"
