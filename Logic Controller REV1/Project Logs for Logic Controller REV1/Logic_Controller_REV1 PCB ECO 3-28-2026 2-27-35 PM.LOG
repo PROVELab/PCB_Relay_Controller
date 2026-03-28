@@ -1,0 +1,20 @@
+Change Component Comment : Designator=R23 Old Comment=27k New Comment=68k
+Change Component Comment : Designator=R13 Old Comment=68k New Comment=27k
+Change component parameters: Designator = "R13" ("R13"); Footprint = "RESC1608X55N"; UniqueID = "\TJOBORJZ\URWTOZTI" ("\TJOBORJZ\URWTOZTI")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "TNPW060327K0BEEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tnpw060327k0beea/vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/TNPW060327K0BEEA.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TNPW060327K0BEEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-TNPW060327K0BEEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW060327K0BEEA?qs=rhzOH%252BTaZWuJVeAMpnOOjQ%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23" ("R23"); Footprint = "RESC1608X55N"; UniqueID = "\TJOBORJZ\GWQSQJAR" ("\TJOBORJZ\GWQSQJAR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MCT06030D6802BP500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"

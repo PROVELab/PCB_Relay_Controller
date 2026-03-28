@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BMS_OK Pin=IC1-9
+Removed Pin From Net: NetName=AVC2r_NO Pin=IC1-39
+Added Pin To Net: NetName=AVC2r_NO Pin=IC1-9
+Added Pin To Net: NetName=BMS_OK Pin=IC1-39

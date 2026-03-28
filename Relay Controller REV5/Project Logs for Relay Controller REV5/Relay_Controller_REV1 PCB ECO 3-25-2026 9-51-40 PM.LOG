@@ -1,0 +1,17 @@
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Removed Member From Class: ClassName=Connectors Member=J?
+Change Component Designator: OldDesignator=J? NewDesignator=J6
+Added Component: Designator=J9(39-28-1023)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "39-28-1023"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/39-28-1023/molex?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "39-28-1023"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "538-39-28-1023"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1023?qs=LQQHZ4xw2XBykFU0jRHvlQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RTD_Sig Pin=J9-1
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Member To Class: ClassName=Connectors Member=Component J6 39-28-1023
+Added Member To Class: ClassName=Connectors Member=Component J9 39-28-1023

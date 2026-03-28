@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=HV+ MC Unfused Pin=J5-1
+Removed Pin From Net: NetName=HV+ MC Unfused Pin=J5-2
+Removed Pin From Net: NetName=HV- MC Unfused Pin=J6-1
+Removed Pin From Net: NetName=HV- MC Unfused Pin=J6-2
+Removed Member From Class: ClassName=Connectors Member=J5
+Removed Member From Class: ClassName=Connectors Member=J6

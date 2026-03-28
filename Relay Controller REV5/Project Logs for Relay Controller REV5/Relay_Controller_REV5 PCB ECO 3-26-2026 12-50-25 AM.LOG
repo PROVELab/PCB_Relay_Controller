@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=HV- Pin=C5-2
+Removed Pin From Net: NetName=HV- Pin=C6-2
+Removed Pin From Net: NetName=HV- Pin=C7-2
+Removed Pin From Net: NetName=HV- Pin=IC2-2
+Removed Pin From Net: NetName=HV- Pin=IC2-6
+Removed Pin From Net: NetName=HV- Pin=IC2-8
+Removed Pin From Net: NetName=HV- Pin=IC3-5
+Removed Pin From Net: NetName=HV+ MC Pin=R1-2
+Removed Pin From Net: NetName=HV- Pin=R9-2
+Removed Pin From Net: NetName=HV- Pin=R10-2
+Added Pin To Net: NetName=HV+ BAT Sense Pin=R2-2
+Change Net Name : Old Net Name=HV- New Net Name=HV- MC Unfused
+Change Net Name : Old Net Name=HV+ MC New Net Name=HV+ MC Unfused
+Added Pin To Net: NetName=HV- Pin=C3-2
+Added Pin To Net: NetName=HV- Pin=C4-2
+Added Pin To Net: NetName=HV- Pin=C5-2
+Added Pin To Net: NetName=HV- Pin=C6-2
+Added Pin To Net: NetName=HV- Pin=C7-2
+Added Pin To Net: NetName=HV- Pin=F3-1
+Added Pin To Net: NetName=HV- Pin=IC1-5
+Added Pin To Net: NetName=HV- Pin=IC1-6
+Added Pin To Net: NetName=HV- Pin=IC1-8
+Added Pin To Net: NetName=HV- Pin=IC2-2
+Added Pin To Net: NetName=HV- Pin=IC2-6
+Added Pin To Net: NetName=HV- Pin=IC2-8
+Added Pin To Net: NetName=HV- Pin=IC3-5
+Added Pin To Net: NetName=HV- Pin=R9-2
+Added Pin To Net: NetName=HV- Pin=R10-2
+Added Net: Name=HV-
+Added Pin To Net: NetName=HV+ MC Pin=F2-1
+Added Pin To Net: NetName=HV+ MC Pin=R1-2
+Added Net: Name=HV+ MC
+Added Member To Class: ClassName=Connectors Member=Component F1 0ADKP0500-RE
+Added Member To Class: ClassName=Connectors Member=Component F2 0ADKP0500-RE
+Added Member To Class: ClassName=Connectors Member=Component F3 0ADKP0500-RE
+Added Member To Class: ClassName=Connectors Member=Component F4 3-151-022

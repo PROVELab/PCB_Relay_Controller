@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+ Signal Pin=IC1-33
+Removed Pin From Net: NetName=- Signal Pin=IC1-35
+Added Pin To Net: NetName=- Signal Pin=IC1-33
+Added Pin To Net: NetName=+ Signal Pin=IC1-35

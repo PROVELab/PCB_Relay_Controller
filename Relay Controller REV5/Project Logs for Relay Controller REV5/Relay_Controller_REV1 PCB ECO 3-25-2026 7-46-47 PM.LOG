@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=HV+ MC Unfused Pin=F2-1
+Removed Pin From Net: NetName=HV+ MC Unfused Pin=F4-1
+Added Pin To Net: NetName=HV- MC Unfused Pin=F2-1
+Added Pin To Net: NetName=HV- MC Unfused Pin=F4-1

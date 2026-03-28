@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=IMD_Status (24V) Pin=J11-2
+Removed Pin From Net: NetName=IMD_OK (24V) Pin=J11-4
+Removed Pin From Net: NetName=IMD_Status (24V) Pin=J15-1
+Removed Pin From Net: NetName=IMD_OK (24V) Pin=J15-2
+Added Pin To Net: NetName=IMD_OK (24V) Pin=J11-2
+Added Pin To Net: NetName=IMD_Status (24V) Pin=J11-4
+Added Pin To Net: NetName=IMD_OK (24V) Pin=J15-1
+Added Pin To Net: NetName=IMD_Status (24V) Pin=J15-2

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IMD_OK Pin=IC1-5
+Removed Pin From Net: NetName=PC Signal Pin=IC1-37
+Added Pin To Net: NetName=PC Signal Pin=IC1-5
+Added Pin To Net: NetName=IMD_OK Pin=IC1-37

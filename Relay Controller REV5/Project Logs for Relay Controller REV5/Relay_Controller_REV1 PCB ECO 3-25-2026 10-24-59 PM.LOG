@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=HV+ CHG Pin=J7-1
+Removed Pin From Net: NetName=HV+ CHG Pin=J7-2
+Removed Pin From Net: NetName=HV- CHG Pin=J8-1
+Removed Pin From Net: NetName=HV- CHG Pin=J8-2
+Removed Member From Class: ClassName=Connectors Member=J10
+Removed Member From Class: ClassName=Connectors Member=J11
+Change Component Designator: OldDesignator=J9 NewDesignator=J7
+Change Component Designator: OldDesignator=J10 NewDesignator=J8
+Change Component Designator: OldDesignator=J11 NewDesignator=J9
+Added Rule: Name=Schematic Supply Nets

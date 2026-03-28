@@ -1,0 +1,14 @@
+Change Component Library : Designator=C1 Old Library=SamacSys.SchLib New Library=*
+Change Component Library : Designator=C2 Old Library=SamacSys.SchLib New Library=*
+Change Component Library : Designator=C3 Old Library=SamacSys.SchLib New Library=*
+Change Component Library : Designator=C4 Old Library=SamacSys.SchLib New Library=*
+Added Component: Designator=IC1(SOIC127P1030X265-8N)
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=3.3V Pin=IC1-2
+Added Pin To Net: NetName=3.3V Pin=IC1-3
+Added Pin To Net: NetName=GND Pin=IC1-4
+Added Pin To Net: NetName=HV- Pin=IC1-5
+Added Pin To Net: NetName=HV- Pin=IC1-6
+Added Pin To Net: NetName=3.3V (High Side) Pin=IC1-7
+Added Pin To Net: NetName=HV- Pin=IC1-8
+Added Member To Class: ClassName=3.3V Isolation Member=Component IC1 MIE05W0505BGYE-3R-Z

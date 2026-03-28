@@ -1,0 +1,111 @@
+Change Component Footprint: Designator=R41 Old Footprint=RESC3116X65N New Footprint=RESC1608X55N
+Change Component Comment : Designator=R14_- Old Comment=1k New Comment=100
+Change Component Comment : Designator=R14_+ Old Comment=1k New Comment=100
+Change Component Comment : Designator=R14_HB Old Comment=1k New Comment=100
+Change Component Comment : Designator=R14_PC Old Comment=1k New Comment=100
+Change Component Comment : Designator=R14_RTD_Sig_In Old Comment=1k New Comment=100
+Change Component Comment : Designator=R41 Old Comment=1k New Comment=100
+Change Component Comment : Designator=LED_- Old Comment=150060GS75000 New Comment=150060VS75000
+Change Component Comment : Designator=LED_+ Old Comment=150060GS75000 New Comment=150060VS75000
+Change Component Comment : Designator=LED_HB Old Comment=150060GS75000 New Comment=150060VS75000
+Change Component Comment : Designator=LED_PC Old Comment=150060GS75000 New Comment=150060VS75000
+Change Component Comment : Designator=LED_RTD_Sig_In Old Comment=150060GS75000 New Comment=150060VS75000
+Change component parameters: Designator = "LED_-" ("LED"); Footprint = "LEDC1608X70N"; UniqueID = "\CMPXRRTA\SMKFDMDT\YGNPTMFG" ("\CMPXRRTA\SMKFDMDT\YGNPTMFG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060VS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_+" ("LED"); Footprint = "LEDC1608X70N"; UniqueID = "\CMPXRRTA\JCGVSYAP\YGNPTMFG" ("\CMPXRRTA\JCGVSYAP\YGNPTMFG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060VS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_HB" ("LED"); Footprint = "LEDC1608X70N"; UniqueID = "\CMPXRRTA\HXOEIYFF\YGNPTMFG" ("\CMPXRRTA\HXOEIYFF\YGNPTMFG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060VS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_PC" ("LED"); Footprint = "LEDC1608X70N"; UniqueID = "\CMPXRRTA\YYJLGWXK\YGNPTMFG" ("\CMPXRRTA\YYJLGWXK\YGNPTMFG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060VS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED_RTD_Sig_In" ("LED"); Footprint = "LEDC1608X70N"; UniqueID = "\CMPXRRTA\YOESVLOA\YGNPTMFG" ("\CMPXRRTA\YOESVLOA\YGNPTMFG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.we-online.com/catalog/datasheet/150060VS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "710-150060VS75000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_-" ("R14"); Footprint = "RESC1608X55N"; UniqueID = "\CMPXRRTA\SMKFDMDT\SMYWQXME" ("\CMPXRRTA\SMKFDMDT\SMYWQXME")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rc0603jr-7w100rl/yageo?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Yageo Group"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "603-RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-7W100RL?qs=tggtontpCXNb6PZs9ghEpg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_+" ("R14"); Footprint = "RESC1608X55N"; UniqueID = "\CMPXRRTA\JCGVSYAP\SMYWQXME" ("\CMPXRRTA\JCGVSYAP\SMYWQXME")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rc0603jr-7w100rl/yageo?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Yageo Group"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "603-RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-7W100RL?qs=tggtontpCXNb6PZs9ghEpg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_HB" ("R14"); Footprint = "RESC1608X55N"; UniqueID = "\CMPXRRTA\HXOEIYFF\SMYWQXME" ("\CMPXRRTA\HXOEIYFF\SMYWQXME")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rc0603jr-7w100rl/yageo?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Yageo Group"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "603-RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-7W100RL?qs=tggtontpCXNb6PZs9ghEpg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_PC" ("R14"); Footprint = "RESC1608X55N"; UniqueID = "\CMPXRRTA\YYJLGWXK\SMYWQXME" ("\CMPXRRTA\YYJLGWXK\SMYWQXME")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rc0603jr-7w100rl/yageo?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Yageo Group"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "603-RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-7W100RL?qs=tggtontpCXNb6PZs9ghEpg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14_RTD_Sig_In" ("R14"); Footprint = "RESC1608X55N"; UniqueID = "\CMPXRRTA\YOESVLOA\SMYWQXME" ("\CMPXRRTA\YOESVLOA\SMYWQXME")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rc0603jr-7w100rl/yageo?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Yageo Group"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "603-RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-7W100RL?qs=tggtontpCXNb6PZs9ghEpg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R41" ("R41"); Footprint = "RESC3116X65N"; UniqueID = "\CMPXRRTA\IYDUDKAX\CJRQTBDC" ("\CMPXRRTA\IYDUDKAX\CJRQTBDC")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rc0603jr-7w100rl/yageo?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Yageo Group"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "603-RC0603JR-7W100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603JR-7W100RL?qs=tggtontpCXNb6PZs9ghEpg%3D%3D"; VariantName = "[No Variations]"

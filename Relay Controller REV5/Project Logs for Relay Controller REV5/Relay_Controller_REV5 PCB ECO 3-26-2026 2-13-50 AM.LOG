@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=HV+ BAT Unfused Pin=K1-1
+Removed Pin From Net: NetName=RTD_Sig Pin=K1-3
+Removed Pin From Net: NetName=Precharge Relay GND Pin=K1-4
+Change Component Footprint: Designator=K1 Old Footprint=KT241A40LSMD New Footprint=S82405VU
+Change Component Comment : Designator=K1 Old Comment=KT24-1A-40L-SMD New Comment=S8-2405VU
+Change component parameters: Designator = "K1" ("K1"); Footprint = "KT241A40LSMD"; UniqueID = "\CVIIGAHZ\TYRYWMFE" ("\CVIIGAHZ\TYRYWMFE")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/S8-2405VU.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "12mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Sensata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "S8-2405VU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "285-S8-2405VU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Cynergy3/S8-2405VU?qs=OlC7AqGiEDkSZm1DfbwcWw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=K2(KT241A40LSMD)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.de/datasheet/2/262/9024185401e-1633625.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Meder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "KT24-1A-40L-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "876-KT24-1A-40L-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/MEDER-electronic-Standex/KT24-1A-40L-SMD?qs=mUCnLpxNPte72XvEBELL9g%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Precharge Relay GND Pin=K1-1
+Added Pin To Net: NetName=RTD_Sig Pin=K1-2
+Added Pin To Net: NetName=HV+ BAT Unfused Pin=K1-3
+Added Pin To Net: NetName=NetK1_4 Pin=K1-4
+Added Pin To Net: NetName=NetK1_4 Pin=R15-1
+Added Net: Name=NetK1_4
+Added Member To Class: ClassName=Connectors Member=Component F1 0ADKP0500-RE
+Added Member To Class: ClassName=Connectors Member=Component F2 0ADKP0500-RE
+Added Member To Class: ClassName=Connectors Member=Component F3 0ADKP0500-RE
+Added Member To Class: ClassName=Connectors Member=Component F4 3-151-022
+Added Member To Class: ClassName=Relay Controller Member=Component K2 KT24-1A-40L-SMD

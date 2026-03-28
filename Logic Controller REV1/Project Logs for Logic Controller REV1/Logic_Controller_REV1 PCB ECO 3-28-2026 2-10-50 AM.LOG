@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=IMD_OK Pin=IC1-5
+Removed Pin From Net: NetName=PC Signal Pin=IC1-37
+Change Component Designator: OldDesignator=R14_RTD NewDesignator=R14_RTD_Sig_In
+Added Pin To Net: NetName=PC Signal Pin=IC1-5
+Added Pin To Net: NetName=IMD_OK Pin=IC1-37
+Add Class Member: Failed to add class member : Component IC4_RTD_Sig_In (IC4) DMN61D8LQ-13
+Add Class Member: Failed to add class member : Component LED_RTD_Sig_In (LED) 150060VS75000
+Added Member To Class: ClassName=RTD_Sig_In Member=Component R14_RTD_Sig_In (R14) 100

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\blew2\Documents\GitHub\PCB_Relay_Controller\Logic Controller REV1\Logic_Controller_REV1.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=logic_controller_rev1-plated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=logic_controller_rev1-nonplated.txt|DrillLayers=gtl,g1,g2,gbl

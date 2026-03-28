@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Logic_Controller_REV1.PcbDoc   3/28/2026  4:01:37 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Logic_Controller_REV1-Plated.TXT
+ASCII Non-Plated RoundHoles File : Logic_Controller_REV1-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             63        PTH        14.32inch (363.77mm)
+T2      12mil (0.3mm)                                             Round             158       PTH        41.55inch (1055.39mm)
+T3      29mil (0.74mm)                                            Round             14        PTH        0.65inch (16.51mm)
+T4      55mil (1.4mm)                                             Round             34        PTH        14.97inch (380.28mm)
+T5      132mil (3.35mm)                                           Round             4         NPTH       8.00inch (203.10mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              273
+
+Total Processing Time (hh:mm:ss) : 00:00:00

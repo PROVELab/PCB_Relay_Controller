@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Relay_Controller_REV5.PcbDoc   3/28/2026  4:02:18 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Relay_Controller_REV5-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : Relay_Controller_REV5-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : Relay_Controller_REV5-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             135       PTH        30.94inch (785.86mm)
+T2      33mil (0.838mm)                                           Round             6         PTH        5.38inch (136.65mm)
+T3      42mil (1.067mm)                                           Round             4         PTH        0.75inch (19.05mm)
+T4      43mil (1.1mm)                                             Round             4         PTH        1.08inch (27.36mm)
+T5      55mil (1.4mm)                                             Round             16        PTH        14.38inch (365.31mm)
+T6      55mil (1.4mm)                                             Slot              4         PTH        13.49inch (342.73mm)
+T7      149mil (3.79mm)                                           Round             4         PTH        4.77inch (121.26mm)
+T8      132mil (3.35mm)                                           Round             4         NPTH       17.02inch (432.36mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              177
+
+Total Processing Time (hh:mm:ss) : 00:00:00

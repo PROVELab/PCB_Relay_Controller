@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=IMD_OK Pin=IC1-5
+Removed Pin From Net: NetName=PCE Pin=IC1-53
+Change Component Designator: OldDesignator=IC4_RTD NewDesignator=IC4_RTD_Sig_In
+Change Component Designator: OldDesignator=LED_RTD NewDesignator=LED_RTD_Sig_In
+Change Component Designator: OldDesignator=R14_RTD NewDesignator=R14_RTD_Sig_In
+Added Pin To Net: NetName=PCE Pin=IC1-5
+Added Pin To Net: NetName=IMD_OK Pin=IC1-53
+Added Member To Class: ClassName=RTD_Sig_In Member=Component IC4_RTD_Sig_In (IC4) DMN61D8LQ-13
+Added Member To Class: ClassName=RTD_Sig_In Member=Component LED_RTD_Sig_In (LED) 150060VS75000
+Added Member To Class: ClassName=RTD_Sig_In Member=Component R14_RTD_Sig_In (R14) 100

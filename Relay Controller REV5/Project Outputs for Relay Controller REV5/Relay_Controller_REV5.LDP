@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\blew2\Documents\GitHub\PCB_Relay_Controller\Relay Controller REV5\Relay_Controller_REV5.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=relay_controller_rev5-roundholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=relay_controller_rev5-slotholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=relay_controller_rev5-roundholes-nonplated.txt|DrillLayers=gtl,gbl

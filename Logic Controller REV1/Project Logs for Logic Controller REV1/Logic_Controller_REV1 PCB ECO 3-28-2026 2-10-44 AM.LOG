@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=IMD_OK Pin=IC1-5
+Removed Pin From Net: NetName=PC Signal Pin=IC1-37
+Change Component Designator: OldDesignator=IC4_RTD NewDesignator=IC4_RTD_Sig_In
+Change Component Designator: OldDesignator=LED_RTD NewDesignator=LED_RTD_Sig_In
+Change Component Designator: OldDesignator=R14_RTD NewDesignator=R14_RTD_Sig_In
+Added Pin To Net: NetName=PC Signal Pin=IC1-5
+Added Pin To Net: NetName=IMD_OK Pin=IC1-37

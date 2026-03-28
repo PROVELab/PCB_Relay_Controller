@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=AVC2r_NO Pin=J14-2
+Added Component: Designator=R13(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TNPW060327K0BEEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tnpw060327k0beea/vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/TNPW060327K0BEEA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TNPW060327K0BEEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "71-TNPW060327K0BEEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW060327K0BEEA?qs=rhzOH%252BTaZWuJVeAMpnOOjQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R22(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CRGCQ0603F10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crgcq0603f10k/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773204-3%7F1%7Fpdf%7FEnglish%7FENG_DS_1773204-3_1.pdf%7F5-2176339-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRGCQ0603F10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "279-CRGCQ0603F10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ0603F10K?qs=wUXugUrL1qxhM765MzQWJg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R23(RESC1608X55N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/rmcf0603jt1k00/stackpole-electronics?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Stackpole Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RMCF0603JT1K00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "708-RMCF0603JT1K00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/SEI-Stackpole/RMCF0603JT1K00?qs=FESYatJ8odK3lrUeqnFxyg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=AVC2r_NO Pin=R23-2
+Add Net: Net with name "AVC2r_NO" already exists
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR13_1 Pin=R22-2
+Added Pin To Net: NetName=NetR13_1 Pin=R23-1
+Added Net: Name=NetR13_1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Net: Name=NetR13_2
+Added Member To Class: ClassName=STM32 Member=Component R13 TNPW060327K0BEEA
+Added Member To Class: ClassName=STM32 Member=Component R22 10k
+Added Member To Class: ClassName=STM32 Member=Component R23 1k

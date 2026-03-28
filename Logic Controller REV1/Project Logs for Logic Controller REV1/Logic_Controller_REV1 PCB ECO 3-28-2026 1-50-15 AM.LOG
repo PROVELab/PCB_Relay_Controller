@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=IMD_OK (24V) Pin=J15-1
+Removed Pin From Net: NetName=IMD_Status (24V) Pin=J15-2
+Added Pin To Net: NetName=IMD_Status (24V) Pin=J15-1
+Added Pin To Net: NetName=IMD_OK (24V) Pin=J15-2
+Added Member To Class: ClassName=Connectors Member=Component J15 39-28-1023
